@@ -1,0 +1,3 @@
+[24-Apr-2017 15:24:01 Asia/Seoul] PHP Notice:  Undefined index: DOCUMENT_ROOT in /home/ggezkr/resources/library/TierAvgComputeHandler.php on line 3
+[24-Apr-2017 15:24:01 Asia/Seoul] PHP Warning:  require_once(/../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/TierAvgComputeHandler.php on line 3
+[24-Apr-2017 15:24:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '/../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/TierAvgComputeHandler.php on line 3

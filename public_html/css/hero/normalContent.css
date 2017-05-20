@@ -1,0 +1,349 @@
+/** Normal Content **/
+/** Profile **/
+
+.profile .content{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    margin-top : 10px;
+}
+.profile .content > .box{
+	
+	-webkit-box-flex: 1;
+	
+	    -ms-flex: 1 1 33%;
+	
+	        flex: 1 1 33%;
+	
+	display:-webkit-box;
+	
+	display:-ms-flexbox;
+	
+	display:flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	
+	overflow:hidden;
+	border-radius:2px;
+	background-color: #404040 ;
+	
+	padding-bottom:5px;
+
+}
+/** box title **/
+.profile .content > .box > div:nth-child(1){
+	-webkit-box-flex : 0;
+	    -ms-flex : 0 0 auto;
+	        flex : 0 0 auto;
+	padding-top: 5px;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+	font-size:1.3rem;
+	font-weight:bold;
+}
+
+.profile .content > .box > div:nth-child(2){
+	-webkit-box-flex : 1;
+	    -ms-flex : 1 1 auto;
+	        flex : 1 1 auto;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+	font-family:beantown;
+	letter-spacing: 1px;
+	font-size:2.5rem;
+	line-height:2.5rem;
+}
+
+/** 경쟁전 점수 box **/
+#box-1 > div:nth-child(2){
+    
+}
+
+/** 티어 box **/
+#box-2 > div:nth-child(2){
+	width: 100%;
+	height: 100%;
+	min-height: 40px;
+	/** background-image:url('../img/dia-badge.png'); **/
+	background-size : contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/** 45%, 승무패**/
+#box-3 > div:nth-child(2){
+	display:block;
+	text-align:center;
+}
+#box-3 > div:nth-child(2) > div:nth-child(1) {
+	line-height: normal;
+}
+/** 45 **/
+#box-3 > div:nth-child(2) > div:nth-child(1) > span:nth-child(1){
+	
+}
+/** % **/
+#box-3 > div:nth-child(2) > div:nth-child(1) > span:nth-child(2){
+	font-size:0.5rem;
+}
+/** 승/무/패 **/
+#box-3 > div:nth-child(2) > div:nth-child(2) {
+	color:DarkGray ;
+	font-size:1.5rem;
+	line-height:1.5rem;
+}
+
+
+
+.profile .content > .divider{
+	width:1px;
+	border:1px solid grey;
+	margin-left:0.5rem;
+	margin-right:0.5rem;
+}
+
+/** most3 table **/
+.most3 table th{
+	font-size:1rem;
+	text-align:center;
+	vertical-align: middle;
+	background-color:DimGray  ;
+} 
+.most3 table th:nth-child(1){
+	width: 25%;
+}
+.most3 table th:nth-child(2){
+	width: 25%;
+}
+.most3 table th:nth-child(3){
+	width: 15%;
+}
+.most3 table th:nth-child(4){
+	width: 15%;
+}
+.most3 table th:nth-child(5){
+	width: 20%;
+}
+
+.most3 table > tbody > tr > td{
+	font-size:1.5rem;
+	font-family:beantown;
+	letter-spacing : 1px;
+	width: 15%;
+	text-align:center;
+	vertical-align: middle;
+}
+/** col 1 **/
+.most3 table td:nth-child(1){
+	font-family : initial;
+	letter-spacing : -1.5px;
+	font-size:1rem;
+	font-weight:bold;
+}
+
+.most3 table td:nth-child(1) > div:nth-child(1){
+	border-radius: 3px 0px 3px 0px;
+	background-size : cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:60px;
+	height: 45px;
+	display:inline-block;	
+}
+.most3 table td:nth-child(1) > div:nth-child(2){
+}
+/** col 2 **/
+.most3 table td:nth-child(2){
+}
+.most3 table td:nth-child(5){
+}
+
+/**
+	Trend 공통영역
+**/
+
+/** trend Button group **/
+.trend-btnGroup{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+}
+
+.trend-btnGroup > button{
+	width:33%;
+	margin:0;
+	color:grey;
+	background-color : #404040;
+	border: #999999;
+}
+
+.trend-btnGroup > button > div:nth-child(1){
+	font-weight: bold;
+	font-size:1.5rem;
+}
+
+.trend-btnGroup > button > div:nth-child(2){
+	font-weight: bold;
+	font-size:1.2rem;
+}
+
+#trend-ystBtn:focus, #trend-todayBtn:focus, #trend-weekBtn:focus{
+	background-color : #404040;
+	outline: none;
+}
+
+#trend-ystBtn:hover, #trend-todayBtn:hover, #trend-weekBtn:hover{
+	background-color : #404040;
+	border: 1px solid DarkGray;
+	color:DarkGray;	
+}
+
+#trend-ystBtn.active, #trend-todayBtn.active, #trend-weekBtn.active{
+	background-color : #404040;
+	border: 1px solid white;
+	color:white;	
+}
+
+
+/** (공통) trend content **/
+.trend .contentBox{
+	padding-bottom:10px;	
+}
+.trend .contentBox .subContent{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+    -webkit-box-pack:start;
+        -ms-flex-pack:start;
+            justify-content:flex-start;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+	margin:0;
+	padding:0;
+	margin-left:1.5rem;
+	width: 100%;
+}
+
+/** (경쟁전 점수)  ▲ ▼ **/
+#trend-cptPt > .subContent > div:nth-child(1){
+	font-size:3rem;
+	line-height:4rem;
+}
+/** (경쟁전 점수) 2135점 **/
+#trend-cptPt > .subContent > div:nth-child(2){
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+	font-size:4rem;
+	line-height:4rem;
+	margin-right: 10px;
+}
+
+/** (공통) trend content **/
+/** 라벨 **/
+.trend .contentBox > .subContent > div:nth-child(2) > #label{
+	font-size:1.2rem;
+	line-height:1.2rem;
+}
+/** (공통) trend content **/
+/** → **/
+.trend .contentBox > .subContent > div:nth-child(4){
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+	font-size:3rem;
+	line-height:2rem;
+}
+/** (공통) trend content **/
+/** 하루전(2130) → 오늘(2302) **/
+.trend .contentBox > .subContent > div:nth-child(3), 
+.trend .contentBox > .subContent > div:nth-child(5) {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+}
+.trend .contentBox > .subContent > div:nth-child(3) > .upper, 
+.trend .contentBox > .subContent > div:nth-child(5) > .upper{
+	font-size:1.5rem;
+	line-height:2rem;
+}
+/** (경쟁전 점수) 위쪽라벨 **/
+.trend .contentBox > .subContent > div:nth-child(3) > .lower, 
+.trend .contentBox > .subContent > div:nth-child(5) > .lower{
+	font-size:2rem;
+	line-height:2rem;
+}
+
+/** winRating **/
+.contentBox.winRating > .subContent {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align:end;
+	    -ms-flex-align:end;
+	        align-items:flex-end;
+}
+
+.contentBox.winRating > .subContent:nth-child(1) {
+	
+}
+
+.labelNumber{
+	font-family: beantown;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+    -webkit-box-align:end;
+        -ms-flex-align:end;
+            align-items:flex-end;
+	font-size:4rem;
+	line-height:2.5rem;
+	margin-left:5px;
+}
+
+.labelNumber > span:nth-child(2){
+	font-size: 2rem;
+}
+
+.progress{
+	margin-bottom:0;
+	color:black;
+}

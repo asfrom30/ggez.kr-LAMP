@@ -1,0 +1,34 @@
+[24-Feb-2017 00:08:14 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/hero/test.php on line 574
+[24-Feb-2017 00:08:14 Asia/Seoul] PHP Notice:  Undefined index: sample in /home/ggezkr/public_html/hero/test.php on line 575
+[24-Feb-2017 00:08:14 Asia/Seoul] PHP Notice:  Undefined index: loc in /home/ggezkr/public_html/hero/test.php on line 576
+[24-Feb-2017 00:08:14 Asia/Seoul] PHP Notice:  Undefined index: device in /home/ggezkr/public_html/hero/test.php on line 577
+[24-Feb-2017 00:09:40 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/hero/test.php on line 80
+[24-Feb-2017 00:09:40 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/hero/test.php on line 575
+[24-Feb-2017 00:09:40 Asia/Seoul] PHP Notice:  Undefined index: sample in /home/ggezkr/public_html/hero/test.php on line 576
+[24-Feb-2017 00:09:40 Asia/Seoul] PHP Notice:  Undefined index: loc in /home/ggezkr/public_html/hero/test.php on line 577
+[24-Feb-2017 00:09:40 Asia/Seoul] PHP Notice:  Undefined index: device in /home/ggezkr/public_html/hero/test.php on line 578
+[24-Feb-2017 00:10:25 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/hero/test.php on line 80
+[24-Feb-2017 00:10:25 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/hero/test.php on line 575
+[24-Feb-2017 00:10:25 Asia/Seoul] PHP Notice:  Undefined index: sample in /home/ggezkr/public_html/hero/test.php on line 576
+[24-Feb-2017 00:10:25 Asia/Seoul] PHP Notice:  Undefined index: loc in /home/ggezkr/public_html/hero/test.php on line 577
+[24-Feb-2017 00:10:25 Asia/Seoul] PHP Notice:  Undefined index: device in /home/ggezkr/public_html/hero/test.php on line 578
+[24-Feb-2017 00:10:34 Asia/Seoul] PHP Notice:  Undefined index: loc in /home/ggezkr/public_html/hero/test.php on line 577
+[24-Feb-2017 00:10:34 Asia/Seoul] PHP Notice:  Undefined index: device in /home/ggezkr/public_html/hero/test.php on line 578
+[24-Feb-2017 00:11:11 Asia/Seoul] PHP Notice:  Undefined index: loc in /home/ggezkr/public_html/hero/test.php on line 576
+[24-Feb-2017 00:11:11 Asia/Seoul] PHP Notice:  Undefined index: device in /home/ggezkr/public_html/hero/test.php on line 577
+[24-Feb-2017 00:12:27 Asia/Seoul] PHP Notice:  Undefined index: device in /home/ggezkr/public_html/hero/test.php on line 577
+[24-Feb-2017 00:13:11 Asia/Seoul] PHP Notice:  Undefined index: loc in /home/ggezkr/public_html/hero/test.php on line 576
+[24-Feb-2017 00:13:11 Asia/Seoul] PHP Notice:  Undefined index: device in /home/ggezkr/public_html/hero/test.php on line 577
+[24-Feb-2017 00:13:35 Asia/Seoul] PHP Notice:  Undefined index: loc in /home/ggezkr/public_html/hero/test.php on line 576
+[24-Feb-2017 00:13:35 Asia/Seoul] PHP Notice:  Undefined index: device in /home/ggezkr/public_html/hero/test.php on line 577
+[24-Feb-2017 00:14:08 Asia/Seoul] PHP Notice:  Undefined index: loc in /home/ggezkr/public_html/hero/test.php on line 576
+[24-Feb-2017 00:14:08 Asia/Seoul] PHP Notice:  Undefined index: device in /home/ggezkr/public_html/hero/test.php on line 577
+[22-Apr-2017 21:03:15 Asia/Seoul] PHP Warning:  require_once(INIT_PATH/ChartInit.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/hero/index.php on line 4
+[22-Apr-2017 21:03:15 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'INIT_PATH/ChartInit.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/hero/index.php on line 4
+[22-Apr-2017 21:03:16 Asia/Seoul] PHP Warning:  require_once(INIT_PATH/ChartInit.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/hero/index.php on line 4
+[22-Apr-2017 21:03:16 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'INIT_PATH/ChartInit.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/hero/index.php on line 4
+[22-Apr-2017 21:11:33 Asia/Seoul] PHP Warning:  require_once(INIT_PATH/ChartInit.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/hero/index.php on line 4
+[[22-Apr-2017 23:14:28 Asia/Seoul] PHP Warning:  require_once(INIT_PATH/ChartInit.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/hero/index.php on line 4
+[22-Apr-2017 23:14:28 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'INIT_PATH/ChartInit.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/hero/index.php on line 4
+[22-Apr-2017 23:14:36 Asia/Seoul] PHP Warning:  require_once(INIT_PATH/ChartInit.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/hero/index.php on line 4
+[22-Apr-2017 23:14:36 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'INIT_PATH/ChartInit.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/hero/index.php on line 4

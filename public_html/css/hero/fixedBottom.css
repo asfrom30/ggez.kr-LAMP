@@ -1,0 +1,288 @@
+/** Data Select and Status Bar Style **/
+.tab-content .data-selector{
+	
+}
+
+/* Fixed Bottom Data-selector Title */
+.selector-header .title-image{
+	width:61px;
+	background-image:url('../img/icon-All.png');
+	background-size : cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.selector-header .title-upper-text{
+	line-height:normal;
+	font-size:2rem;
+	font-weight: bold;
+	vertical-align: bottom;
+}
+
+.selector-header .title-lower-text{
+	line-height:normal;
+	font-size:2rem;
+	color:black;
+	background-color:orange;
+	vertical-align: bottom;
+}
+
+.selector-header .title-lower-text .versus{
+	font-size:1.5rem;
+}
+.selector-header .title-lower-text span.red{
+	color:rgb(225, 20, 63);
+}
+.selector-header .title-lower-text span.blue{
+	color:rgb(0, 18, 255);
+}
+
+ /** Button Grounp Style**/
+#heroContent-selector .subTitle{
+	font-size: 13px;
+	font-weight:bold;
+	margin-left:0.5rem;
+	margin-top:5px;
+	margin-bottom:2px;
+}
+@media all and (min-width:768px){
+	#heroContent-selector .subTitle{
+		margin-top:10px;
+		margin-bottom:5px;
+		font-size: 17px;
+		
+	}
+}
+
+#heroContent-selector .btn-group{
+	width:100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+}
+
+/*  Button Default Style */
+.tab-content .data-selector button{
+	margin:0;
+	color:grey;
+	background-color : #404040;
+	border: #999999;
+}
+
+/*  Button Active Color Style */
+.tab-content .data-selector button.active{
+	background-color : #404040;
+	color:white;
+}
+
+.tab-content .data-selector .my-data-selector button.active{
+	border : 2px solid rgba(255,99,132,1);
+}
+.tab-content .data-selector .friend-data-selector button.active{
+	border : 2px solid rgba(154,208,245,1);	
+}
+.tab-content .data-selector .tierSelectBtn-Group button.active{
+	border : 2px solid rgba(255,230,170,1);
+}
+
+
+#heroContent-selector button:focus{
+	outline: none;
+}
+
+
+/** 티어선택 버튼 그룹 버튼7개 **/
+#heroContent-selector .tierSelectBtn-Group > button{
+	width:14.285%; /** 100% **/
+	height:60px;
+}
+
+
+/** button grounp width **/
+#heroContent-selector .btn-group{
+	margin : auto;
+	width: 95%;
+}
+
+/** Hero List bg color **/
+#heroContent-selector #heroList{
+	background-color : #404040;
+	margin : auto;
+	width: 95%;
+}
+
+/** Header Group 영웅이미지랑, 라인하르트, 오늘경기결과가 나오는 곳. **/
+#heroContent-selector #data-select-button{
+	height: 40px;
+	color:white;
+	margin-right:5px;
+	border-radius: 3px;
+}
+
+/** Lay out **/
+@media all and (min-width:768px){
+	#heroContent-selector #heroList{
+		border-top : 1px solid black;
+	}
+
+	#heroContent-selector .hide-selector{
+		width:100%;
+		background-color: #222222;
+		border-bottom-right-radius:10px;
+		border-bottom-left-radius:10px;
+		border : 1px solid grey;
+		/**position: absolute;**/
+		padding-bottom: 20px;
+	}
+	
+	#heroContent-fixed-header{
+		-webkit-box-ordinal-group:0;
+		    -ms-flex-order:-1;
+		        order:-1;
+	}
+	
+	#heroList li{
+		width: 50%;
+	}
+}
+
+@media all and (min-width:768px) and (max-width:1024px) {
+	.heroContainer{
+		width : 12%;
+		height: 40px;
+	}
+	
+	.heroContainer:hover{
+		height : 43px;
+		margin-top: 1px;
+		background-color: YELLOW;
+	}
+}
+
+@media all and (min-width:1025px) {
+	.heroContainer{
+		width : 12%;
+		height: 50px;
+	}
+	
+	.heroContainer:hover{
+		height : 53px;
+		margin-top: 1px;
+		background-color: YELLOW;
+	}
+}
+
+
+
+/** Hero List **/
+
+#heroList li{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+}
+
+#heroList li{
+	margin-top:0.5rem;
+}
+
+#heroList li:nth-child(1){
+	margin-top:0;
+}
+
+@media all and (min-width:768px){
+	#heroList li{
+		margin-top:0.5rem;
+		margin-bottom:0.5rem;
+	}
+
+	#heroList li:nth-child(1){
+		margin-top:0.5rem;
+		margin-bottom:0.5rem;
+	}
+}
+
+.roleContainer{
+	width : 6%;
+	height : 40px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-left:5px;
+}
+
+.heroContainer{
+	width : 12%;
+	height : 40px;
+	margin-top:4px;
+	margin-left: 2px; 
+	background-color: Grey;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 1px solid Olive ; 
+	position:relative;
+}
+
+.heroContainer:hover{
+	height : 43px;
+	margin-top: 1px;
+	background-color: YELLOW;
+}
+
+.heroContainer.active{
+	background-color: Gold;
+}
+
+.update{
+	width:100%;
+	text-align:left;
+	position: absolute;
+	top:0%;
+	left:0%;
+	
+	font-size : 12px;
+	line-height: 10px;
+	font-weight: bold;
+	color: white;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+.fupdate{
+	width:100%;
+	text-align:right;
+	position: absolute;
+	bottom:0%;
+	left:0%;
+	
+	font-size : 12px;
+	line-height: 10px;
+	font-weight: bold;
+	color: white;
+	text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+}
+
+@media all and (min-width:768px) {
+	.update{
+		font-size : 10px;
+	}
+	.fupdate{
+		font-size : 10px;
+	}
+}
+
+.heroNameTag{
+	visibility:hidden;
+	font-size:1rem;
+	position: absolute;
+	top:100%;
+	left:50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}

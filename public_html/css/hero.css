@@ -1,0 +1,637 @@
+html{ font-size:10px;}
+body{
+	background-color:black;
+	color:white;
+}
+
+.font-num{
+	font-family: beantown;
+}
+
+/* Main Title */
+.main-title .battle-image{
+	-webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+	width:61px;
+	height: 50px;
+	background-image:url('../img/icon-all.png');
+	background-size : cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right:5px;
+	/** border-radius: 5px 0px 5px 0px; **/
+}
+
+.main-title .battle-name{
+	font-size:2.5rem;
+	font-weight:bold;
+}
+
+
+
+/** Main Tab buttons **/
+.main-tab-buttons li{
+	text-align:center;
+	height:30px;
+}
+
+.main-tab-buttons li > a{
+	padding:0;
+	height:30px;
+}
+
+
+
+/** Main Tab Page (전체요약, 영웅상세 버튼 클릭)**/
+.main-tab-buttons li > a{
+	line-height:30px;
+	text-align:center;
+	background-color : transparent;
+	border-bottom : 1px solid #999999;
+	color: grey;	
+}
+
+.main-tab-buttons li > a.active{
+	background-color : #404040;
+	border : 1px solid #999999;
+	color:white;
+}
+
+
+
+/** Tab Loading **/
+.tab-loading .loading-label{
+	text-align:center;
+	color:LightGrey;
+	word-wrap: break-word;
+}
+
+@media all and (min-width:768px) {
+	.tab-loading .loading-label{
+		font-size:20px;
+	}
+}
+
+/** @layout **/
+
+/** Tab Content Layout **/
+/* 모바일에서는 column으로, 데탑에서는 row로 작동하는 layout */
+.tab-content{
+	-ms-flex-wrap:wrap;
+	    flex-wrap:wrap;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+}
+@media All and (min-width:768px){
+	.tab-content{
+		-webkit-box-orient:horizontal;
+		-webkit-box-direction:normal;
+		    -ms-flex-direction:row;
+		        flex-direction:row;
+	}
+}
+
+.tab-content .tab-pane{
+	width:100%;
+}
+
+/* Data Selector Layout*/
+/* Data-selector가 z-index값을 갖을 수 있도록 위치 정의 */
+.tab-content .data-selector{
+	position:fixed;
+	z-index: 1030;	/* 모바일에서는 항상 위에 있어야 하므로 */
+	left:0;
+	right:0;
+	bottom:0;
+	margin-bottom:0;
+	border-width: 1px 0 0;
+	
+	width:100%;
+	
+	
+}
+@media All and (min-width:768px){
+	.tab-content .data-selector{
+		position:relative;	/* selector-hidden(position:absolute)의 기준점이 됩니다.*/
+		z-index: 2;	/* Radar Chart나 Radar Table 보다 위에 있어야 한다. */
+		
+		width:50%;
+	}
+	.data-selector .selector-hidden{
+		position:absolute;
+		top:50px;
+		width:100%;
+	}	
+}
+
+/* Data Selector Layout*/
+
+
+
+
+/* 3-1 : Favorite Search & Dropdown Button and List Layout*/
+.favorite-search.w-adjust{
+	width:100%;
+}
+@media All and (min-width:768px){
+	.favorite-search.w-adjust{
+		width:50%;
+	}	
+}
+.favorite-search input{height:25px;}
+.favorite-search button{height:25px;}
+
+
+/** @Style **/
+
+/** Favorite Search Style**/
+
+.tab-content .selector-hidden{
+	background-color:black;
+}
+
+
+/** Top10 and Favorite List Style **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** 'Build Dom' for Reusable **/
+
+/** Player Search List Style **/
+/* Build Layout because Javascript can't add Css Style clear (complicated) */
+/* Please Build this style very smallest */
+/* Use for dynamic Element */
+
+/* Build Search List */
+.build-player-list{
+	background-color: #404040;
+    border-left: 3px solid #999999;
+    opacity: 0.97;
+}
+
+.build-player-list ul{
+	margin:0;
+	padding:0;
+}
+.build-player-list li{
+	color:white;
+	margin-bottom:5px;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	cursor: pointer;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom:1px solid gray;
+}
+.build-player-list li > div{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	width:100%;
+	height:30px;
+	text-align:center;
+	-webkit-box-align:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+}
+.build-player-list li > div > div:nth-child(1){width:15%}
+.build-player-list li > div > div:nth-child(2){width:15%}
+.build-player-list li > div > div:nth-child(3){width:25%}
+.build-player-list li > div > div:nth-child(4){width:25%}
+.build-player-list li > div > div:nth-child(5){width:30%}
+
+.build-player-list li > div > div:nth-child(2){
+	height:100%;
+	background-size : contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/* If you want detail Section */
+/* 이런식으로 상위 선택자에 위치를 지정해준다 */
+.friendFavorite .playerList.dropdown-menu li{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Build Radar Table */ 
+
+/* Radar Table Width */
+/* Header Width */
+.table.radar-table th, .table.radar-table td{	width:17%;	}
+.table.radar-table th:nth-child(1), .table.radar-table td:nth-child(1){	width:32%; }
+
+/* Radar Table Background Color*/
+/* Header Color */
+.table.radar-table th:nth-child(1){background-color:DimGrey}
+.table.radar-table th:nth-child(2){background-color:rgba(255,99,132,0.2)}
+.table.radar-table th:nth-child(3){background-color:rgba(154,208,245,0.2)}
+.table.radar-table th:nth-child(4){background-color:rgba(255,230,170,0.2)}
+.table.radar-table th:nth-child(5){background-color:DimGrey}
+/* Data Color */
+.table.radar-table td:nth-child(2){background-color:rgba(255,99,132,0.2)}
+.table.radar-table td:nth-child(3){background-color:rgba(154,208,245,0.4)}
+.table.radar-table td:nth-child(4){background-color:rgba(255,230,170,0.2)}
+
+/* Radar Table Font */
+/* Header font */
+.table.radar-table th{font-size:11px; font-family: NanumBarunGothic; font-weight: 600; letter-spacing: 1px; vertical-align:middle; text-align:center;}
+@media all and (min-width:768px){
+	.table.radar-table th{font-size:12px;}
+}
+/* Data font */
+.table.radar-table td{font-size:12px; font-family: NanumBarunGothic; font-weight: 600; letter-spacing: 0px; vertical-align:middle; text-align:center;}
+.table.radar-table td > div:nth-child(2){font-size:11px; color:lightgrey; letter-spacing: -1px;}
+.table.radar-table td:nth-child(1) > div:nth-child(2){color:lightgrey; font-size:10px; font-weight:500; letter-spacing: -1px;} /* 상세설명만 폰트 크기를 줄입니다. */
+@media all and (min-width:768px){
+	.table.radar-table td{font-size:13px; font-family: NanumBarunGothic; font-weight: 600; letter-spacing: 0px; vertical-align:middle; text-align:center;}
+	.table.radar-table td > div:nth-child(2){color:lightgrey; letter-spacing:0px}
+	.table.radar-table td:nth-child(1) > div:nth-child(2){color:lightgrey; font-size:12px; font-weight:500;} /* 상세설명만 폰트 크기를 줄입니다. */
+}
+
+/* noGame클래스만 따로  */
+.table.radar-table td .noGame{font-size:11px; font-weight:500; color:lightgrey}
+
+/** Button **/
+.radar-table button{
+	background-color:dimgrey;
+	border-radius: 10px;
+	font-size:8px;
+}
+@media all and (min-width:768px){
+	.radar-table button{
+		font-size:12px;
+	}
+}
+
+/* Perfect Label */
+.radar-table .perfect{
+	color: white;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Tab Content 공통 Style **/
+/** 컨텐츠 박스는 데이터 주제 하나를 담는 박스입니다. **/
+.tab-content .contentBox {
+	background-color: #404040 ;
+	border-left: 3px solid #999999;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/** contentBox의 제목 **/
+.tab-content .contentBox .subTitle{
+	font-size:1.8rem;
+	font-weight:bold;
+	margin-left:0.5rem;
+}
+/** contentBox의 제목의 아이콘 **/
+.tab-content.contentBox .subTitle > span{
+	font-size:1.8rem;
+	font-weight:0;
+	margin-left:0.5rem;
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************
+*	Hero Content("영웅상세")  Tap Pane Layout
+**************************************/
+
+
+
+/** Friend Radar Chart and Table Layout **/
+#heroContent .layout-row-1{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column;
+	        flex-direction : column;
+}
+#heroContent > .layout-row-1 .contentBox:nth-child(1){ /* Radar Chart Width */
+	width:100%;
+}
+#heroContent .layout-row-1 .contentBox:nth-child(2){ /* Radar Table Width */
+ 	width:100%;
+}
+
+@media all and (min-width:768px) {
+	#heroContent .layout-row-1{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-orient : horizontal;
+		-webkit-box-direction : normal;
+		    -ms-flex-direction : row;
+		        flex-direction : row;
+		-ms-flex-pack:distribute;
+		    justify-content:space-around;
+	}
+	#heroContent > .layout-row-1 .contentBox:nth-child(1){ /* Radar Chart Width */
+		width:49%;
+	}
+	#heroContent > .layout-row-1 .contentBox:nth-child(2){ /* Radar Table Width */
+	 	width:49%;
+	}
+}
+
+
+/** Set Hero Cotent to flex layout **/
+#heroContent{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+}
+@media all and (min-width:768px) {
+	#heroContent > .layout-row-bot{
+		-webkit-box-ordinal-group:0;
+		    -ms-flex-order:-1;
+		        order:-1;
+	}
+}
+
+/** Layout-row-1(Radar Chart and Radar Table Layout) **/
+#heroContent .layout-row-1{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column;
+	        flex-direction : column;
+}
+#heroContent > .layout-row-1 .contentBox:nth-child(1){ /* Radar Chart Width */
+	width:100%;
+}
+#heroContent .layout-row-1 .contentBox:nth-child(2){ /* Radar Table Width */
+ 	width:100%;
+}
+
+@media all and (min-width:768px) {
+	#heroContent .layout-row-1{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-orient : horizontal;
+		-webkit-box-direction : normal;
+		    -ms-flex-direction : row;
+		        flex-direction : row;
+		-ms-flex-pack:distribute;
+		    justify-content:space-around;
+	}
+	#heroContent > .layout-row-1 .contentBox:nth-child(1){ /* Radar Chart Width */
+		width:49%;
+	}
+	#heroContent > .layout-row-1 .contentBox:nth-child(2){ /* Radar Table Width */
+	 	width:49%;
+	}
+}
+
+/**	Layout-row-2(Spacer between Chart and Fixed Bottom)	**/
+#heroContent > .Layout-row-2{
+	height:150px;
+}
+@media all and (min-width:768px){
+	#heroContent > .Layout-row-2{
+		height:0px;
+	}
+}
+
+/**
+*	Radar Content
+**/
+.radarContainer{
+	width:100%;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+}
+
+.radarContainer:after {
+  padding-top: 100%;
+  /* 16:9 ratio */
+}
+
+#radarCanvas{
+	max-width:450px;
+}
+
+
+/*
+	 @layout Friend Tap
+ */
+
+/* Bootstrap Dropdown Scrollable Menu (ex : https://goo.gl/nn4GJ7) */
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+li span {
+ line-height: 1.8;
+ font-size: 1.3em;
+}
+
+/* Individual Icon Setting */
+#regFavorite{
+	color:yellow;
+}
+
+/** font declaration **/
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+/* BeanTown Font*/
+@font-face { 
+    font-family: beantown;
+    src: url(./font/Beantown.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal
+}
+
+
+/* Google Adsense */
+/* adsense -1 */ /* 모바일 화면에서는 안보이고 데탑에서만 보이기 하는 것*/
+#build-adsense-1{
+	display:none;
+}
+@media all and (min-width:768px){
+	#build-adsense-1{
+		display:block;
+		width:468px;
+		height:60px;
+	}
+}
+
+/* adsense -2 */ /* 모바일 화면에서만 안보이고 데탑에서는 안 보이게 하는 것*/
+#build-adsense-2{
+	width: 320px;
+	height:100px;
+}
+
+@media all and (min-width:768px){
+	#build-adsense-2{
+		display:none;
+	}
+}
+
+/* adsense -3 */ /* 모바일 화면에서는 안보이고 데탑에서만 보이기 하는 것*/
+#build-adsense-3{
+	display:none;
+}
+@media all and (min-width:768px){
+	#build-adsense-3{
+		width:728px;
+		height:90px;
+		display:block;
+	}
+}
+
+/* Spacer */
+.radar-space{
+	width:100%;
+	height:200px;
+}
+
+@media all and (min-width:768px){
+	.radar-space{
+		display:none;
+	}
+}
+
+
+.fa.display-none{
+	display:none;
+}
+
+

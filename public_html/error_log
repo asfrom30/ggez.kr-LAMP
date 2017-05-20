@@ -1,0 +1,363 @@
+[20-Dec-2016 22:12:46 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[20-Dec-2016 22:12:46 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[20-Dec-2016 22:13:31 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[20-Dec-2016 22:13:31 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[20-Dec-2016 22:14:08 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[20-Dec-2016 22:14:08 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[20-Dec-2016 22:18:54 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[20-Dec-2016 22:18:54 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[20-Dec-2016 22:19:36 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[20-Dec-2016 22:19:36 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[21-Dec-2016 00:09:28 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[21-Dec-2016 00:09:28 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[21-Dec-2016 00:09:35 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[21-Dec-2016 00:09:35 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[21-Dec-2016 00:09:38 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[21-Dec-2016 00:09:38 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[21-Dec-2016 00:11:12 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[21-Dec-2016 00:11:12 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[21-Dec-2016 04:53:51 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 7
+[21-Dec-2016 04:53:51 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 7
+[21-Dec-2016 04:55:08 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 7
+[21-Dec-2016 04:55:08 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 7
+[21-Dec-2016 04:57:15 America/Denver] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 7
+[21-Dec-2016 04:57:15 America/Denver] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 7
+[21-Dec-2016 05:00:15 America/Denver] PHP Warning:  require(./function/ChartInit.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/hero.php on line 12
+[21-Dec-2016 05:00:15 America/Denver] PHP Warning:  require(./function/ChartInit.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/hero.php on line 12
+[21-Dec-2016 05:00:15 America/Denver] PHP Fatal error:  require(): Failed opening required './function/ChartInit.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/hero.php on line 12
+[21-Dec-2016 07:24:31 America/Denver] PHP Warning:  require(./function/ChartInit.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/hero.php on line 12
+[21-Dec-2016 07:24:31 America/Denver] PHP Warning:  require(./function/ChartInit.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/hero.php on line 12
+[21-Dec-2016 07:24:31 America/Denver] PHP Fatal error:  require(): Failed opening required './function/ChartInit.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/hero.php on line 12
+[22-Dec-2016 17:49:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/CronDatas.php on line 3
+[22-Dec-2016 17:49:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/CronDatas.php on line 3
+[22-Dec-2016 17:50:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:50:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:51:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:51:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:52:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:52:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:52:29 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:52:29 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:53:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:53:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:54:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:54:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:54:48 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:54:48 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:54:49 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:54:49 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:55:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:55:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:55:34 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/CronDatas.php on line 3
+[22-Dec-2016 17:55:34 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/CronDatas.php on line 3
+[22-Dec-2016 17:56:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:56:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:56:04 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DBDatas.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/test.php on line 4
+[22-Dec-2016 17:56:04 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DBDatas.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/test.php on line 4
+[22-Dec-2016 17:57:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:57:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:57:51 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/test.php on line 2
+[22-Dec-2016 17:57:51 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/test.php on line 2
+[22-Dec-2016 17:58:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/test.php on line 2
+[22-Dec-2016 17:58:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/test.php on line 2
+[22-Dec-2016 17:59:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/test.php on line 2
+[22-Dec-2016 17:59:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/test.php on line 2
+[22-Dec-2016 17:59:29 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/test.php on line 2
+[22-Dec-2016 17:59:29 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/test.php on line 2
+[22-Dec-2016 17:59:53 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 17:59:53 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 18:00:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 18:00:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 18:00:12 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/CronDatas.php on line 3
+[22-Dec-2016 18:00:12 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/CronDatas.php on line 3
+[22-Dec-2016 18:01:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 18:01:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 18:03:09 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 18:03:09 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 18:04:01 Asia/Seoul] PHP Warning:  require_once(../../resources/config.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 18:04:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../resources/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/DBDatas.php on line 114
+[22-Dec-2016 18:33:21 Asia/Seoul] PHP Fatal error:  Call to undefined function queryLog() in /home/ggezkr/public_html/test.php on line 56
+[23-Dec-2016 21:44:31 Asia/Seoul] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[23-Dec-2016 21:44:31 Asia/Seoul] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[23-Dec-2016 21:44:33 Asia/Seoul] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[23-Dec-2016 21:44:33 Asia/Seoul] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[23-Dec-2016 21:44:39 Asia/Seoul] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[23-Dec-2016 21:44:39 Asia/Seoul] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[23-Dec-2016 21:44:41 Asia/Seoul] PHP Warning:  include_once(./info/herolist.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/index.php on line 2
+[23-Dec-2016 21:44:41 Asia/Seoul] PHP Warning:  include_once(): Failed opening './info/herolist.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/index.php on line 2
+[06-Jan-2017 20:18:14 Asia/Seoul] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 230
+[10-Feb-2017 17:54:57 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ggezkr/resources/library/DbHandler.php on line 128
+[10-Feb-2017 17:54:57 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[10-Feb-2017 17:54:57 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[10-Feb-2017 17:55:00 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ggezkr/resources/library/DbHandler.php on line 128
+[10-Feb-2017 17:55:00 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[10-Feb-2017 17:55:00 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[10-Feb-2017 17:55:05 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ggezkr/resources/library/DbHandler.php on line 128
+[10-Feb-2017 17:55:05 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[10-Feb-2017 17:55:05 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[10-Feb-2017 17:55:07 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ggezkr/resources/library/DbHandler.php on line 128
+[10-Feb-2017 17:55:07 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[10-Feb-2017 17:55:07 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[10-Feb-2017 17:55:08 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ggezkr/resources/library/DbHandler.php on line 128
+[10-Feb-2017 17:55:08 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[10-Feb-2017 17:55:08 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[10-Feb-2017 18:57:13 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[10-Feb-2017 18:57:13 Asia/Seoul] PHP Notice:  Undefined index: loc in /home/ggezkr/public_html/checkDuplicateBtg.php on line 15
+[10-Feb-2017 18:57:13 Asia/Seoul] PHP Notice:  Undefined index: device in /home/ggezkr/public_html/checkDuplicateBtg.php on line 16
+[11-Feb-2017 17:52:24 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[11-Feb-2017 17:52:24 Asia/Seoul] PHP Notice:  Undefined index: loc in /home/ggezkr/public_html/checkDuplicateBtg.php on line 15
+[11-Feb-2017 17:52:24 Asia/Seoul] PHP Notice:  Undefined index: device in /home/ggezkr/public_html/checkDuplicateBtg.php on line 16
+[13-Feb-2017 14:10:59 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[13-Feb-2017 14:11:03 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[13-Feb-2017 14:11:09 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[13-Feb-2017 14:11:10 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[14-Feb-2017 21:24:27 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[17-Feb-2017 01:48:49 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[19-Feb-2017 09:31:50 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[19-Feb-2017 21:02:24 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Feb-2017 21:02:28 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Feb-2017 21:02:32 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[21-Feb-2017 20:16:30 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[24-Feb-2017 09:36:53 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[27-Feb-2017 02:51:20 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[01-Mar-2017 01:53:48 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[02-Mar-2017 05:55:09 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[03-Mar-2017 01:55:37 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[04-Mar-2017 01:53:14 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[05-Mar-2017 01:53:15 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[06-Mar-2017 01:50:29 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[07-Mar-2017 01:59:39 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[08-Mar-2017 01:51:44 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[08-Mar-2017 23:05:10 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[09-Mar-2017 02:51:28 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[10-Mar-2017 01:54:08 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[11-Mar-2017 02:48:13 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[11-Mar-2017 12:44:05 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[11-Mar-2017 12:44:05 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[11-Mar-2017 12:44:05 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[11-Mar-2017 12:44:15 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[11-Mar-2017 12:44:15 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[11-Mar-2017 12:44:15 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[11-Mar-2017 12:44:16 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[11-Mar-2017 12:44:16 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[11-Mar-2017 12:44:16 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[11-Mar-2017 12:44:28 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[11-Mar-2017 12:44:28 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[11-Mar-2017 12:44:28 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[11-Mar-2017 12:44:29 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[11-Mar-2017 12:44:29 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[11-Mar-2017 12:44:29 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[11-Mar-2017 12:44:30 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[11-Mar-2017 12:44:30 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[11-Mar-2017 12:44:30 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[11-Mar-2017 12:44:32 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[11-Mar-2017 12:44:32 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[11-Mar-2017 12:44:32 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[11-Mar-2017 12:44:34 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[11-Mar-2017 12:44:34 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[11-Mar-2017 12:44:34 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[11-Mar-2017 12:44:42 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[11-Mar-2017 12:44:42 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[11-Mar-2017 12:44:42 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[11-Mar-2017 12:44:44 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[11-Mar-2017 12:44:44 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[11-Mar-2017 12:44:44 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[11-Mar-20[14-Mar-2017 01:49:52 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[15-Mar-2017 01:49:05 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[16-Mar-2017 01:49:44 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[17-Mar-2017 01:47:49 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[18-Mar-2017 01:48:48 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[27-Mar-2017 22:19:09 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[30-Mar-2017 08:21:20 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[02-Apr-2017 21:38:12 Asia/Seoul] PHP Notice:  Undefined index: btg in /home/ggezkr/public_html/checkDuplicateBtg.php on line 12
+[07-Apr-2017 22:53:36 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[13-Apr-2017 15:23:31 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[14-Apr-2017 07:42:46 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1203): User ggezkr_root already has more than 'max_user_connections' active connections in /home/ggezkr/resources/library/DbHandler.php on line 128
+[14-Apr-2017 07:42:46 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[14-Apr-2017 07:42:46 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[14-Apr-2017 07:42:50 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1203): User ggezkr_root already has more than 'max_user_connections' active connections in /home/ggezkr/resources/library/DbHandler.php on line 128
+[14-Apr-2017 07:42:50 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[14-Apr-2017 07:42:50 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[14-Apr-2017 07:42:54 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1203): User ggezkr_root already has more than 'max_user_connections' active connections in /home/ggezkr/resources/library/DbHandler.php on line 128
+[14-Apr-2017 07:42:54 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[14-Apr-2017 07:42:54 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[14-Apr-2017 07:42:55 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1203): User ggezkr_root already has more than 'max_user_connections' active connections in /home/ggezkr/resources/library/DbHandler.php on line 128
+[14-Apr-2017 07:42:55 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[14-Apr-2017 07:42:55 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[14-Apr-2017 07:43:04 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1203): User ggezkr_root already has more than 'max_user_connections' active connections in /home/ggezkr/resources/library/DbHandler.php on line 128
+[14-Apr-2017 07:43:04 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[14-Apr-2017 07:43:04 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[14-Apr-2017 07:43:05 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1203): User ggezkr_root already has more than 'max_user_connections' active connections in /home/ggezkr/resources/library/DbHandler.php on line 128
+[14-Apr-2017 07:43:05 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[14-Apr-2017 07:43:05 Asia/Seoul] P[19-Apr-2017 18:37:32 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:37:34 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:37:37 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:37:39 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:37:45 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:37:45 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:41:24 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:41:43 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:47:02 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:47:04 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:47:05 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:47:07 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 18:47:08 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 21:50:05 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 21:50:07 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 21:50:08 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 21:50:10 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 21:50:11 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 21:50:12 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 21:50:13 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 22:12:59 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 22:13:02 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 22:13:03 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 22:13:08 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 22:13:15 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 22:13:15 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:31:04 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:31:06 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:31:09 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:31:14 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:20 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:22 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:23 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:25 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:26 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:26 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:26 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:29 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:46 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:49 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:51 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:51 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:52 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:52 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:49:52 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:50:11 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:50:13 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:50:14 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:50:17 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:50:18 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:50:18 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:50:31 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:50:31 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:51:34 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[19-Apr-2017 23:51:37 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[20-Apr-2017 00:05:00 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[20-Apr-2017 00:05:03 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[20-Apr-2017 00:05:03 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[20-Apr-2017 00:05:55 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[20-Apr-2017 00:05:58 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[20-Apr-2017 00:06:00 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[20-Apr-2017 00:06:02 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[20-Apr-2017 00:06:04 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[20-Apr-2017 00:06:08 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 299
+[20-Apr-2017 11:43:39 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'ggezkr_root'@'localhost' to database 'ggezkr_raw' in /home/ggezkr/resources/library/DbHandler.php on line 128
+[20-Apr-2017 11:43:39 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[20-Apr-2017 11:43:39 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[20-Apr-2017 11:43:43 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'ggezkr_root'@'localhost' to database 'ggezkr_raw' in /home/ggezkr/resources/library/DbHandler.php on line 128
+[20-Apr-2017 11:43:43 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[20-Apr-2017 11:43:43 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[20-Apr-2017 11:43:44 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'ggezkr_root'@'localhost' to database 'ggezkr_raw' in /home/ggezkr/resources/library/DbHandler.php on line 128
+[20-Apr-2017 11:43:44 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[20-Apr-2017 11:43:44 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DbHandler.php on line 297
+[22-Apr-2017 21:10:53 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:10:53 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:10:59 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:10:59 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:11:00 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:11:00 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:11:07 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:11:07 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:14:17 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:14:17 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:14:20 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:14:20 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:14:23 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:14:23 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:14:26 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 21:14:26 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/lo[22-Apr-2017 23:15:26 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:26 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:27 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:27 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:29 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:29 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:29 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:29 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:29 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:29 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:29 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:29 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:30 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:30 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:30 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:30 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:30 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:30 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:30 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:30 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:30 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:30 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:31 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:31 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:31 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:31 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:33 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:33 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:57 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:57 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:58 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:15:58 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:17:01 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:17:01 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:17:02 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5
+[22-Apr-2017 23:17:02 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/checkDuplicateBtg.php on line 5

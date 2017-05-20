@@ -1,0 +1,25 @@
+[24-Dec-2016 00:59:59 Asia/Seoul] PHP Warning:  require_once(../../../public_html/register/blizzard/Client.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 10
+[24-Dec-2016 00:59:59 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../../public_html/register/blizzard/Client.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 10
+[24-Dec-2016 01:12:46 Asia/Seoul] PHP Warning:  require_once(../../../public_html/register/blizzard/Client.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 10
+[24-Dec-2016 01:12:46 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../../../public_html/register/blizzard/Client.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 10
+[24-Dec-2016 01:14:23 Asia/Seoul] PHP Warning:  require_once(../blizzard/Client.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 10
+[24-Dec-2016 01:14:23 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '../blizzard/Client.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 10
+[24-Dec-2016 01:14:39 Asia/Seoul] PHP Warning:  require_once(./blizzard/Client.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 10
+[24-Dec-2016 01:14:39 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required './blizzard/Client.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 10
+[24-Dec-2016 01:17:05 Asia/Seoul] PHP Warning:  require_once(./blizzard/GrantType/IGrantType.php): failed to open stream: No such file or directory in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 13
+[24-Dec-2016 01:17:05 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required './blizzard/GrantType/IGrantType.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 13
+[24-Dec-2016 01:18:48 Asia/Seoul] PHP Fatal error:  Class 'OAuth2\Client' not found in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 15
+[24-Dec-2016 01:27:17 Asia/Seoul] PHP Notice:  Undefined index: access_token in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 35
+[24-Dec-2016 01:27:19 Asia/Seoul] PHP Notice:  Undefined variable: btg in /home/ggezkr/public_html/register/index.php on line 73
+[24-Dec-2016 01:27:23 Asia/Seoul] PHP Notice:  Undefined variable: btg in /home/ggezkr/public_html/register/index.php on line 73
+[24-Dec-2016 01:27:44 Asia/Seoul] PHP Notice:  Undefined index: access_token in /home/ggezkr/resources/library/register/oauth-battle-net.php on line 35
+[24-Dec-2016 01:32:46 Asia/Seoul] PHP Notice:  Undefined index: battletage in /home/ggezkr/public_html/register/index.php on line 20
+[24-Dec-2016 01:40:23 Asia/Seoul] PHP Warning:  require_once(/home/ggezkr/resources/libraryDBDatas.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/register/index.php on line 10
+[24-Dec-2016 01:40:23 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required '/home/ggezkr/resources/libraryDBDatas.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/register/index.php on line 10
+[24-Dec-2016 01:40:44 Asia/Seoul] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /home/ggezkr/public_html/register/index.php on line 25
+[25-Dec-2016 02:00:23 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ggezkr/resources/library/DBDatas.php on line 129
+[25-Dec-2016 02:00:23 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DBDatas.php on line 232
+[25-Dec-2016 02:01:20 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'ggezkr_root'@'localhost' to database 'ggezkr_root' in /home/ggezkr/resources/library/DBDatas.php on line 129
+[25-Dec-2016 02:01:20 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DBDatas.php on line 232
+[25-Dec-2016 02:01:46 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'ggezkr_root'@'localhost' to database 'ggezkr_root' in /home/ggezkr/resources/library/DBDatas.php on line 129
+[25-Dec-2016 02:01:46 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/DBDatas.php on line 232

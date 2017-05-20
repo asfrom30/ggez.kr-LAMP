@@ -1,0 +1,164 @@
+[21-Dec-2016 08:50:37 America/Denver] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'ggezkr_root'@'localhost' to database 'ggez_db' in /home/ggezkr/resources/library/DBDatas.php on line 122
+[21-Dec-2016 08:50:37 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ggezkr/public_html/test/index.php:6) in /home/ggezkr/resources/library/ChromePhp.php on line 336
+[21-Dec-2016 08:51:46 America/Denver] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'ggezkr_root'@'localhost' to database 'ggez_db' in /home/ggezkr/resources/library/DBDatas.php on line 122
+[21-Dec-2016 08:51:46 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ggezkr/public_html/test/index.php:6) in /home/ggezkr/resources/library/ChromePhp.php on line 336
+[21-Dec-2016 08:53:17 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ggezkr/public_html/test/index.php:6) in /home/ggezkr/resources/library/ChromePhp.php on line 336
+[21-Dec-2016 08:53:17 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ggezkr/public_html/test/index.php:6) in /home/ggezkr/resources/library/ChromePhp.php on line 336
+[21-Dec-2016 08:53:17 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ggezkr/public_html/test/index.php:6) in /home/ggezkr/resources/library/ChromePhp.php on line 336
+[21-Dec-2016 08:54:03 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ggezkr/public_html/test/index.php:6) in /home/ggezkr/resources/library/ChromePhp.php on line 336
+[21-Dec-2016 09:12:02 America/Denver] PHP Warning:  require_once(/home/ggezkr/resources/library/DBdatas.php): failed to open stream: No such file or directory in /home/ggezkr/resources/cron/CronDatas.php on line 5
+[21-Dec-2016 09:12:02 America/Denver] PHP Fatal error:  require_once(): Failed opening required '/home/ggezkr/resources/library/DBdatas.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/resources/cron/CronDatas.php on line 5
+[21-Dec-2016 09:13:00 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ggezkr/resources/library/DBDatas.php:136) in /home/ggezkr/resources/library/ChromePhp.php on line 336
+[21-Dec-2016 09:14:52 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ggezkr/resources/library/DBDatas.php:136) in /home/ggezkr/resources/library/ChromePhp.php on line 336
+[21-Dec-2016 21:53:38 America/Denver] PHP Fatal error:  Call to undefined function cronData() in /home/ggezkr/resources/cron/CronDatas.php on line 15
+[21-Dec-2016 21:59:26 America/Denver] PHP Fatal error:  Call to undefined function addBtg() in /home/ggezkr/public_html/test/index.php on line 17
+[21-Dec-2016 22:19:21 America/Denver] PHP Warning:  Missing argument 2 for createTable(), called in /home/ggezkr/public_html/test/index.php on line 11 and defined in /home/ggezkr/resources/library/CronDatas.php on line 35
+[21-Dec-2016 22:19:21 America/Denver] PHP Notice:  Undefined variable: table in /home/ggezkr/resources/library/CronDatas.php on line 39
+[21-Dec-2016 22:19:21 America/Denver] PHP Fatal error:  Call to a member function query() on string in /home/ggezkr/resources/library/CronDatas.php on line 47
+[22-Dec-2016 17:03:50 Asia/Seoul] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 14
+[22-Dec-2016 17:03:50 Asia/Seoul] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 15
+[22-Dec-2016 17:03:50 Asia/Seoul] PHP Fatal error:  Call to a member function fetch_array() on null in /home/ggezkr/resources/library/CronDatas.php on line 18
+[22-Dec-2016 17:06:58 Asia/Seoul] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 14
+[22-Dec-2016 17:06:58 Asia/Seoul] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 15
+[22-Dec-2016 17:06:58 Asia/Seoul] PHP Fatal error:  Call to a member function fetch_array() on null in /home/ggezkr/resources/library/CronDatas.php on line 18
+[22-Dec-2016 17:07:37 Asia/Seoul] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 14
+[22-Dec-2016 17:07:37 Asia/Seoul] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 16
+[22-Dec-2016 17:07:37 Asia/Seoul] PHP Fatal error:  Call to a member function fetch_array() on null in /home/ggezkr/resources/library/CronDatas.php on line 19
+[22-Dec-2016 17:08:46 Asia/Seoul] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ggezkr/resources/cron/CronExcution.php on line 12
+[22-Dec-2016 17:08:59 Asia/Seoul] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 14
+[22-Dec-2016 17:08:59 Asia/Seoul] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 15
+[22-Dec-2016 17:08:59 Asia/Seoul] PHP Fatal error:  Call to a member function fetch_array() on null in /home/ggezkr/resources/library/CronDatas.php on line 18
+[22-Dec-2016 17:09:14 Asia/Seoul] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 14
+[22-Dec-2016 17:09:14 Asia/Seoul] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 15
+[22-Dec-2016 17:09:14 Asia/Seoul] PHP Fatal error:  Call to a member function fetch_array() on null in /home/ggezkr/resources/library/CronDatas.php on line 18
+[22-Dec-2016 17:09:16 Asia/Seoul] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 14
+[22-Dec-2016 17:09:16 Asia/Seoul] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/ggezkr/resources/library/CronDatas.php on line 15
+[22-Dec-2016 17:09:16 Asia/Seoul] PHP Fatal error:  Call to a member function fetch_array() on null in /home/ggezkr/resources/library/CronDatas.php on line 18
+[22-Dec-2016 22:58:35 Asia/Seoul] PHP Notice:  Undefined variable: mysqli in /home/ggezkr/public_html/test/index.php on line 66
+[22-Dec-2016 23:09:47 Asia/Seoul] PHP Fatal error:  Cannot redeclare connectDB() (previously declared in /home/ggezkr/public_html/test/index.php:32) in /home/ggezkr/resources/library/DBDatas.php on line 141
+[06-Feb-2017 17:46:50 Asia/Seoul] PHP Parse error:  syntax error, unexpected ',' in /home/ggezkr/public_html/test/addMultipleBtgs.php on line 16
+[06-Feb-2017 18:26:52 Asia/Seoul] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/ggezkr/public_html/test/addMultipleBtgs.php on line 27
+[12-Feb-2017 09:18:17 Asia/Seoul] PHP Notice:  Undefined variable: result in /home/ggezkr/resources/library/CronDatas.php on line 37
+[12-Feb-2017 09:18:17 Asia/Seoul] PHP Fatal error:  Call to a member function fetch_array() on null in /home/ggezkr/resources/library/CronDatas.php on line 37
+[12-Feb-2017 12:56:18 Asia/Seoul] PHP Fatal error:  Call to undefined function length() in /home/ggezkr/resources/library/CronDatas.php on line 56
+[12-Feb-2017 13:08:23 Asia/Seoul] PHP Notice:  Undefined variable: today_date in /home/ggezkr/public_html/test/TestCronChecker.php on line 18
+[12-Feb-2017 13:08:23 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:01:39 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:02:20 Asia/Seoul] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ggezkr/public_html/test/Number.php on line 21
+[14-Feb-2017 00:03:07 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:03:07 Asia/Seoul] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 157
+[14-Feb-2017 00:04:13 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:04:14 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:04:16 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:04:55 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:06:37 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:06:38 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:06:43 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:06:43 Asia/Seoul] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 157
+[14-Feb-2017 00:06:44 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:06:44 Asia/Seoul] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 157
+[14-Feb-2017 00:07:18 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:07:18 Asia/Seoul] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 157
+[14-Feb-2017 00:07:19 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:07:19 Asia/Seoul] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 157
+[14-Feb-2017 00:07:21 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:07:21 Asia/Seoul] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/DbHandler.php on line 157
+[14-Feb-2017 00:10:35 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:10:35 Asia/Seoul] PHP Notice:  Array to string conversion in /home/ggezkr/public_html/test/Number.php on line 26
+[14-Feb-2017 00:11:00 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:11:03 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:11:05 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:38:31 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:38:33 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:43:32 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:43:34 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:48:10 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:48:12 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:48:13 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:48:15 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:49:47 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:49:49 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:51:33 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:51:36 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:51:37 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:51:38 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:53:22 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:53:24 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:53:25 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:53:26 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:53:26 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:53:27 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:53:28 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:54:32 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:54:35 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[14-Feb-2017 00:54:37 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[17-Feb-2017 00:29:34 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[17-Feb-2017 00:29:56 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[17-Feb-2017 00:29:57 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[19-Feb-2017 01:46:44 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[21-Feb-2017 00:50:50 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[22-Feb-2017 01:01:34 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[24-Feb-2017 00:52:52 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[25-Feb-2017 02:07:06 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[26-Feb-2017 00:36:16 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[26-Feb-2017 02:33:58 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[27-Feb-2017 00:35:11 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[28-Feb-2017 00:11:15 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[13-Mar-2017 09:53:53 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[13-Mar-2017 09:53:53 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[13-Mar-2017 09:53:53 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/CronDatas.php on line 53
+[13-Mar-2017 09:54:11 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[13-Mar-2017 09:54:11 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[13-Mar-2017 09:54:11 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/CronDatas.php on line 53
+[13-Mar-2017 09:54:50 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[13-Mar-2017 09:54:50 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[13-Mar-2017 09:54:50 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/CronDatas.php on line 53
+[13-Mar-2017 09:58:55 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[13-Mar-2017 09:58:55 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[13-Mar-2017 09:58:55 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/CronDatas.php on line 53
+[13-Mar-2017 10:00:56 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY0[13-Mar-2017 18:55:08 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[13-Mar-2017 20:10:52 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[13-Mar-2017 20:10:53 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[13-Mar-2017 20:10:55 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[13-Mar-2017 20:10:56 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[13-Mar-2017 20:10:57 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[13-Mar-2017 20:11:03 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[13-Mar-2017 20:11:04 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[13-Mar-2017 20:11:05 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[13-Mar-2017 20:11:07 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[31-Mar-2017 01:06:07 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[17-Apr-2017 19:17:30 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[18-Apr-2017 15:08:27 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[19-Apr-2017 10:29:50 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[19-Apr-2017 10:31:02 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[19-Apr-2017 10:31:06 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[19-Apr-2017 14:23:18 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[20-Apr-2017 00:51:03 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[21-Apr-2017 09:34:05 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[21-Apr-2017 09:55:33 Asia/Seoul] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/ggezkr/resources/library/DbHandler.php on line 128
+[21-Apr-2017 09:55:33 Asia/Seoul] /home/ggezkr/resources/library
+	Connect failed: %s
+
+[21-Apr-2017 09:55:33 Asia/Seoul] PHP Fatal error:  Call to a member function query() on null in /home/ggezkr/resources/library/CronDatas.php on line 53
+[21-Apr-2017 14:12:44 Asia/Seoul] PHP Notice:  Undefined index: publicConfig in /home/ggezkr/public_html/test/checkpath.php on line 33
+[21-Apr-2017 14:29:51 Asia/Seoul] PHP Notice:  Undefined index: publicConfig in /home/ggezkr/public_html/test/checkpath.php on line 33
+[21-Apr-2017 15:16:34 Asia/Seoul] PHP Fatal error:  Cannot redeclare TierDataHandler::__construct() in /home/ggezkr/resources/library/TierAvgComputeHandler.php on line 29
+[21-Apr-2017 20:03:30 Asia/Seoul] PHP Parse error:  syntax error, unexpected '$tierAverageVars' (T_VARIABLE) in /home/ggezkr/resources/library/TierAvgComputeHandler.php on line 24
+[21-Apr-2017 20:04:43 Asia/Seoul] PHP Parse error:  syntax error, unexpected '$tierAverageVars' (T_VARIABLE) in /home/ggezkr/resources/library/TierAvgComputeHandler.php on line 24
+[21-Apr-2017 20:04:46 Asia/Seoul] PHP Parse error:  syntax error, unexpected '$tierAverageVars' (T_VARIABLE) in /home/ggezkr/resources/library/TierAvgComputeHandler.php on line 24
+[21-Apr-2017 22:01:55 Asia/Seoul] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home/ggezkr/resources/library/TierAvgComputeHandler.php on line 8
+[21-Apr-2017 22:02:45 Asia/Seoul] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home/ggezkr/resources/library/TierAvgComputeHandler.php on line 4
+[22-Apr-2017 00:48:57 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54
+[22-Apr-2017 23:06:57 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/test/Number.php on line 5
+[22-Apr-2017 23:06:57 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/test/Number.php on line 5
+[22-Apr-2017 23:16:30 Asia/Seoul] PHP Warning:  require_once(LIBRARY_PATH/DbHandler.php): failed to open stream: No such file or directory in /home/ggezkr/public_html/test/Number.php on line 5
+[22-Apr-2017 23:16:30 Asia/Seoul] PHP Fatal error:  require_once(): Failed opening required 'LIBRARY_PATH/DbHandler.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ggezkr/public_html/test/Number.php on line 5
+[24-Apr-2017 00:23:51 Asia/Seoul] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ggezkr/resources/library/CronDatas.php on line 54

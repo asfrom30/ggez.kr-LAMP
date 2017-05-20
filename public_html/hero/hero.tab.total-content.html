@@ -1,0 +1,237 @@
+<!-- Total Content("전체요약") Tab Pane -->
+<div id="html-total-summary" class="tab-pane fade in">
+	<div id="normalContent">
+		<!-- Profile divider -->
+		<div class="rowDivider" style="margin-top:0px; display:flex; align-items:center; justify-content:flex-start">
+			<div style="flex:0 0 auto;"><span class="label label-primary" style="font-size:15px;">Profile</span></div>
+			<div style="flex:1 0 auto;">
+				<div style="height:50%; border-bottom:2px solid #337AB7"></div>
+			</div>
+		</div>
+
+		<!-- profile content -->
+		<div class="profile">
+			<div class="content">
+				<div class="box" id="box-1" >
+					<div>경쟁전 점수</div>
+					<div>-</div>
+				</div>
+
+				<div class="divider">
+				</div>
+
+				<div class="box" id="box-2">
+					<div>티어</div>
+					<div></div>
+				</div>
+
+				<div class="divider">
+				</div>
+
+				<div class="box" id="box-3">
+					<div>승률</div>
+					<div>
+						<div><span>-</span><span>%</span></div>
+						<div>-/-/-</div>
+					</div>
+				</div>
+			</div>
+			<!--
+			<div class="content">
+				<div>
+					<div class="subTitle">어제 게임수</div>
+					<div class="subContent"><span id="main-4">-</span></div>
+				</div>
+				<div class="divider">
+				</div>
+				<div>
+					<div class="subTitle">오늘 게임수</div>
+					<div class="subContent"><span id="main-5">-</span></div>
+				</div>
+				<div class="divider">
+				</div>
+				<div>
+					<div class="subTitle">주간 게임수</div>
+					<div class="subContent"><span id="main-6">-</span></div>
+				</div>
+			</div>
+			 -->
+		</div>
+
+		<!-- most3 divider -->
+		<div class="rowDivider" style="margin-top:25px; margin-bottom:10px; display:flex; align-items:center; justify-content:flex-start">
+			<div style="flex:0 0 auto;"><span class="label label-danger" style="font-size:15px;">Most 3</span></div>
+			<div style="flex:1 0 auto;">
+				<div style="height:50%; border-bottom:2px solid #D9534F"></div>
+			</div>
+		</div>
+
+		<!-- most3 Content -->
+		<div class="most3 contentBox" style="margin-left:5px; margin-right:5px;"> <!-- most3 content--> <!-- most3Wrapper 참고 -->
+			<!-- <div class="subTitle"><span class="glyphicon glyphicon-search"></span> MOST3</div>  -->
+			<div class="subContent">
+				<table class="table" style="table-layout:fixed;">
+					<thead>
+						<tr>
+							<th></th>
+							<th>승률</th>
+							<th>평점</th>
+							<th>KDA</th>
+							<th>평균폭주</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="most1">
+							<td><div></div><div>-</div></td>
+							<td><div>-</div><div style="font-size: 15px; color:DarkGray ;" >-/-/-</div></td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+						<tr id="most2">
+							<td><div></div><div>-</div></td>
+							<td><div>-</div><div style="font-size: 15px; color:DarkGray;">-/-/-</div></td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+						<tr id="most3">
+							<td><div></div><div>-</div></td>
+							<td><div>-</div><div style="font-size: 15px; color:DarkGray ;">-/-/-</div></td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- trend divider -->
+		<div class="rowDivider" style="margin-top:25px; margin-bottom:10px; display:flex; align-items:center; justify-content:flex-end">
+			<div style="flex:0 0 auto;"><span class="label label-warning" style="font-size:15px;">Trend</span></div>
+			<div style="flex:1 0 auto;">
+				<div style="height:50%; border-bottom:2px solid orange"></div>
+			</div>
+		</div>
+
+		<!-- trend content -->
+		<div class="trend"><!-- trend content -->
+			<div class="trend-btnGroup"> <!-- button group -->
+				<button class="trendBtn btn btn-default btn-xs" id="trend-ystBtn"><div>어제경기</div><div>-</div></button>
+				<button class="trendBtn btn btn-default btn-xs active" id="trend-todayBtn"><div>오늘경기</div><div>-</div></button>
+				<button class="trendBtn btn btn-default btn-xs" id="trend-weekBtn"><div>주간경기</div><div>-</div></button>
+			</div>
+			<div>
+				<!-- Trend > 경쟁전 점수 -->
+				<div class="contentBox" id="trend-cptPt">
+					<div class="subTitle"><span class="glyphicon glyphicon-sort"></span> 경쟁전 점수</div>
+					<div class="subContent">
+						<div><span id="trend-cptPtPrefix">-</span></div>
+						<div>
+							<span id="trend-diffCptPt" class="number">---</span>
+							<span id="label">점</span>
+						</div>
+						<div>
+							<div class="upper"><span id="trend-preCptLabel">--</span></div>
+							<div class="lower"><span id="trend-preCptPt" class="number">---</span></div>
+						</div>
+						<div>→</div>
+						<div>
+							<div class="upper"><span id="trend-postCptLabel">--</span></div>
+							<div class="lower"><span id="trend-postCptPt" class="number">---</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Trend > 승률 -->
+				<div class="contentBox winRating">
+					<div class="subTitle"><span class="glyphicon glyphicon-tasks"></span> 승률</div>
+					<div class="subContent">
+			 			<div style="width:65%;">
+				 			<div>시즌3</div>
+			 				<div id="trend-preWinRating" class="progress">
+								<div id="success" class="progress-bar progress-bar-success" role="progressbar"></div>
+								<div id="danger" class="progress-bar progress-bar-danger" role="progressbar"></div>
+							</div>
+						</div>
+						<div class="labelNumber"><span id="trend-preWinRatingNum"></span><span>%</span></div>
+					</div>
+					<div class="subContent">
+			 			<div style="width:45%;">
+				 			<div class="trend-postLabel">--</div>
+			 				<div id="trend-postWinRating" class="progress">
+								<div id="success" class="progress-bar progress-bar-success" role="progressbar"></div>
+								<div id="danger" class="progress-bar progress-bar-danger" role="progressbar"></div>
+							</div>
+						</div>
+						<div class="labelNumber"><span id="trend-postWinRatingNum"></span><span>%</span></div>
+					</div>
+				</div>
+
+				<!-- Trend > 평점 -->
+				<div class="contentBox">
+					<div class="subTitle"><span class="glyphicon glyphicon-signal"></span> MOST3 플레이</div>
+					<div class="subContent" id="ptRating">
+						<div>
+				 			<div>시즌3</div>
+							<div class="fiveStar" id="trend-prePtRatingStar" ></div>
+						</div>
+						<div class="labelNumber"><span id="trend-prePtRatingNum"></span></div>
+					</div>
+					<div class="subContent" id="ptRating">
+						<div>
+				 			<div class="trend-postLabel">--</div>
+							<div class="fiveStar" id="trend-postPtRatingStar" >--</div>
+						</div>
+						<div class="labelNumber"><span id="trend-postPtRatingNum"></span></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Trend > KDA -->
+			<!--
+			<div class="contentBox">
+				<div class="subTitle"><span class="glyphicon glyphicon-star-empty"></span> KDA</div>
+				<div class="subContent" id="trend-ptRating">
+					<div><span id="trend-ptRatingPrefix">-</span></div>
+					<div>
+						<span id="trend-diffPtRating" class="number">---</span>
+						<span id="label">점</span>
+					</div>
+					<div>
+						<div class="upper"><span class="trend-preLabel">--</span></div>
+						<div class="lower"><span id="trend-prePtRating" class="number">---</span></div>
+					</div>
+					<div>vs</div>
+					<div>
+						<div class="upper"><span class="trend-postLabel">--</span></div>
+						<div class="lower"><span id="trend-postPtRating" class="number">---</span></div>
+					</div>
+				</div>
+			</div>
+			 -->
+			<!-- Trend > 폭주시간 -->
+			<!--
+			<div class="contentBox">
+				<div class="subTitle"><span class="glyphicon glyphicon-fire"></span> 폭주시간</div>
+				<div class="subContent" id="trend-cptPt">
+					<div><span id="trend-cptPtPrefix">-</span></div>
+					<div>
+						<span id="trend-diffCptPt" class="number">---</span>
+						<span id="label">점</span>
+					</div>
+					<div>
+						<div class="upper"><span id="trend-preLabel">--</span></div>
+						<div class="lower"><span id="trend-preCptPt" class="number">---</span></div>
+					</div>
+					<div>→</div>
+					<div>
+						<div class="upper"><span id="trend-postLabel">--</span></div>
+						<div class="lower"><span id="trend-postCptPt" class="number">---</span></div>
+					</div>
+				</div>
+			</div>-->
+		</div>
+	</div>	<!-- End of Normal Content('전체요약') -->
+</div>
