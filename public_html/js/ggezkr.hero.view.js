@@ -274,7 +274,7 @@ function updateShortStatsListDisplay($_target, shortStats, isInit){
 
 function friendLoaderScreen(bool){
 	var $_target = $("#js-friend-tap-loader-screen");
-	displayBlock($_target, bool);
+	displayFlex($_target, bool);
 }
 
 

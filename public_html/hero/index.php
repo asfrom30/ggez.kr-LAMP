@@ -113,6 +113,10 @@ global $cookie;
 				</div>
 			</div>
 			<div id="build-adsense-1">
+				<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1722366924586940" data-ad-slot="5878328514" data-ad-format="auto"></ins>
+			    <script>
+			    	$(document).ready(function(){(adsbygoogle = window.adsbygoogle || []).push({})});
+			    </script>
 			</div>
 		</div>
 	</div>
@@ -129,13 +133,8 @@ global $cookie;
 	<!-- Main Contents -->	
 	<!-- Tab Content -->
 	<div class="main-tab-contents">
-		<div id="build-adsense-3">
-			<script type="text/javascript">
-			(function(cl,i,c,k,m,o,n){m=cl.location.protocol+c;o=cl.referrer;m+='&mon_rf='+encodeURIComponent(o);
-			n='<'+i+' type="text/javascript" src="'+m+'"></'+i+'>';cl.writeln(n);
-			})(document,'script','//tab2.clickmon.co.kr/pop/wp_ad_728_js.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1033884%7C%5E%7CAdver_M_1003115');
-			</script>
-		</div>
+<!-- 		<div id="build-adsense-3"> -->
+<!-- 		</div> -->
 		<!-- ovLoading Image -->
 		<div class="tab-loading fade-0.2s">
 			<div class="flex f-align-w-center">
@@ -245,11 +244,10 @@ global $cookie;
 					<!-- Adsense -->
 					<div class="flex f-align-w-center">
 						<div id="build-adsense-2">
-							<script type="text/javascript">
-							(function(cl,i,c,k,m,o,n){m=cl.location.protocol+c;o=cl.referrer;m+='&mon_rf='+encodeURIComponent(o);
-							n='<'+i+' type="text/javascript" src="'+m+'"></'+i+'>';cl.writeln(n);
-							})(document,'script','//mtab.clickmon.co.kr/pop/wp_m_320_100_js.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1033884%7C%5E%7CAdver_M_1003115');
-							</script>
+							<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1722366924586940" data-ad-slot="5878328514" data-ad-format="auto"></ins>
+						    <script>
+						    	$(document).ready(function(){(adsbygoogle = window.adsbygoogle || []).push({})});
+						    </script>
 					    </div>
 					</div>
 				</div>	

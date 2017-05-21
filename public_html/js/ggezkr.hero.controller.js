@@ -19,6 +19,7 @@ var resultfShiftIndex = 0;
 
 var fBattleName;
 var fBattleId;
+var fTempBattleId;
 
 /* Ready Java Script */
 $(document).ready(function(){
@@ -522,14 +523,14 @@ function favoriteButClicked(jqElem){
 /* 쿠키에 해당 유저를 추가한다.*/
 function addFavorite(){
 	
-	var currentId = window.fBattleId;
+	var fBattleId = window.fBattleId;
 	
 	/* 쿠키가 없을 경우 함수를 종료한다. */
 	if(!checkCookie(cFavoriteName)){
 		return;
 	}
 	/* 아직 친구 아이디가 없는 경우 */
-	if(typeof currentId == 'undefined'){
+	if(typeof fBattleId == 'undefined'){
 		alert("친구를 검색한 후에 추가가 가능합니다.")
 		return;
 	}
@@ -546,11 +547,11 @@ function addFavorite(){
 		return;
 	}
 	
-	if(currentId in objFavoriteIds){
+	if(fBattleId in objFavoriteIds){
 		alert("이미 등록된 사용자입니다.");
 		return;
 	} else {
-		objFavoriteIds[currentId] = null;
+		objFavoriteIds[fBattleId] = null;
 		alert("등록되었습니다.");
 	}
 	
@@ -1725,14 +1726,23 @@ function updateShortStatsList(ajaxResponse, $_target, isInit){
 	$("#js-dropdown-search-list").addClass("show");
 }
 
-function addListener2ShortStatsList(){
-	$($_target).find("li").click(function(){
+function addListener2ShortStatsList($_target){
+	
+	$_target.find("li").click(function(){
+		
+		var battleId = $(this).attr("id");
+		
+		/* TODO:전역변수 말고 param으로 넘길것 */
+		window.fTempBattleId = battleId;
+		
+		/* 검색한 친구 배틀네임을 셋팅 한다. */
+		// TODO : GETSTATS에 배틀네임을 받으면 이부분은 삭제할것
+		window.fBattleName = $(this).find("div:nth-child(3)").text();
 		
 		/* 로딩스크린을 불러온다. */
 		friendLoaderScreen(true);
 		
 		/* ajax를 요청합니다. */
-		var battleId = $(this).attr("id");
 		ajaxFetchStats(battleId, refreshFriendStats, "fstats", null);
 	});
 }
@@ -1743,6 +1753,7 @@ function refreshFriendStats(reference, responseText){
 	/* responseText가 정상인지 확인합니다. */
 	/* 오버워치에 등록된 사용자가 아니라면 */
 	if(responseText == ""){	// ""(공백 문자열)이 오게 된다.
+		friendLoaderScreen(false);
 		alert("검색된 사용자가 없습니다.");
 		return;
 	}
@@ -1751,6 +1762,7 @@ function refreshFriendStats(reference, responseText){
 	
 	if(typeof responseObj['dataResult'] == 'undefined'){
 		alert("죄송합니다. 사용자 데이터가 존재하지 않습니다. ");
+		friendLoaderScreen(false);
 		return;
 	}
 	
@@ -1764,6 +1776,9 @@ function refreshFriendStats(reference, responseText){
 function updateFriendDataDisplay(){
 	/* 친구 배틀네임 가져와서 설정하기 */
 	printFriendBattleName();
+	
+	/* TODO:전역변수 말고 param으로 넘길것 */
+	window.fBattleId = window.fTempBattleId;
 	
 	/* 응답을 받은뒤에 친구의 게임수를 실행시켜 준다. */
 	setfGameNumInFixedBtm();
