@@ -21,6 +21,10 @@ var fBattleName;
 var fBattleId;
 var fTempBattleId;
 
+var elementIds = {
+	friendSearchBar : "#js-favorite-search-group",
+}
+
 /* Ready Java Script */
 $(document).ready(function(){
 	
@@ -466,6 +470,14 @@ function friendSearchButClicked(){
 	
 	/* #의 개수에 따라 처리하는 프로세스가 다릅니다. */
 	if(countNumSign == 1){	// #이 1개일때는 정상적으로 입력했다고 생각합니다.
+		/* 로딩스크린을 불러온다. */
+		friendLoaderScreen(true);
+		
+		/* 검색한 친구 배틀네임을 셋팅 한다. */
+		// TODO : GETSTATS에 배틀네임을 받으면 이부분은 삭제할것
+		var n = searchValue.indexOf("#");
+		window.fBattleName = searchValue.substring(0, n);
+		
 		var battleTag = searchValue.replace("#","-");
 		ajaxFetchStats(battleTag, refreshFriendStats, "fstats", null);
 		// 인풋필드 초기화

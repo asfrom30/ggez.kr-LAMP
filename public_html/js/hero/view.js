@@ -1,11 +1,5 @@
-/* Relate to Drop down Function */
-function addDropDownListener(){
-	/* 즐겨찾기 항목 버튼  */
-	$("#js-favorite-list-button").click(function(){
-		$("#js-dropdown-favorite-list").toggleClass("show");
-	});
-}
 
+/* Window.onclick Declaration */
 //Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.js-dropdown-button')) {
@@ -19,6 +13,32 @@ window.onclick = function(event) {
     }
   }
 }
+
+/* html onClick */
+function updateMainTabDisplay(evt, tabName) {
+	// Get all elements with class="tabcontent" and hide them
+	$(".tabcontent").css("display", "none");
+	
+	// Get all elements with class="tablinks" and remove the class "active"
+	$(".tablink").removeClass("active");
+	
+	// Show the current tab, and add an "active" class to the button that opened the tab
+	$("#"+tabName).css("display", "block");
+	
+	evt.currentTarget.className += " active";
+	//TODO: JQUERY코드로 변경	$(this).addClass("active");
+}
+
+
+/* Relate to Drop down Function */
+function addDropDownListener(){
+	/* 즐겨찾기 항목 버튼  */
+	$("#js-favorite-list-button").click(function(){
+		$("#js-dropdown-favorite-list").toggleClass("show");
+	});
+}
+
+
 
 /*************************************************************/ 
 
@@ -62,7 +82,7 @@ function setPeriodButtonActive(){
 	});
 	
 	if(activePane == 'html-hero-detail'){
-		/* 시즌 평균에 블루 라벨을 추가한다. */
+		/* 시즌 평균에 블루 라벨을 추가한다. *///dy523
 		$("#avgBtn").css("border", "2px solid rgba(154,208,245,1)");
 		$("#avgBtn").css("color", "white");
 		
@@ -95,7 +115,7 @@ function controlTabDisplay(tabId){
 	/* 활성 탭에 따라서 period 버튼을 선택 할수도 못할 수도 있습니다. */
 	if(tabId == 'js-hero-tab-button'){	// 영웅상세탭
 		/* 시즌 평균에 블루 라벨을 추가한다. */
-		$("#avgBtn").css("border", "2px soltabId rgba(154,208,245,1)");
+		$("#avgBtn").css("border", "2px solid rgba(154,208,245,1)");
 		$("#avgBtn").css("color", "white");
 		
 		$(".tab-content .data-selector .friend-data-selector button").css("border", "0px soltabId black");
@@ -276,6 +296,8 @@ function friendLoaderScreen(bool){
 	var $_target = $("#js-friend-tap-loader-screen");
 	displayFlex($_target, bool);
 }
+
+
 
 
 
