@@ -6,6 +6,17 @@
 This service is analyzing Overwatch Gamers Statics daily and grade. Diplaying statics services were already existed. But I thought that type of services just displayed meaningless number. For example, User only can see number which is accumulated score. I think User wants to know what was today play, yesterday play and week play. And using comparing other user's statics, they want to know how themselves palyed.(In that time I used to play Overwatch). So, I decided to develop this project.
 
 ### About date
+* Develop Period
+    * 2016.Dec ~ 2017.2.10
+* Launch Start
+    * 2017.2.10
+
+### Result
+This web application totally considered Responsive Desigin in Mobile and Web.
+
+![Alt Text](/screenshot/screenshot-web-1.png)
+![Alt Text](/screenshot/screenshot-web-2.png)
+![Alt Text](/screenshot/screenshot-web-3.png)
 
 ### Result(Visitor)
 ![Alt text](/screenshot/2017-07-29_20h26_19.png "Optional Title")
