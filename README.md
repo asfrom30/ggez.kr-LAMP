@@ -14,9 +14,8 @@ This service is analyzing Overwatch Gamers Statics daily and grade. Diplaying st
 ### Result
 This web application totally considered Responsive Desigin in Mobile and Web.
 
-![Alt Text](/screenshot/screenshot-web-1.png)
-![Alt Text](/screenshot/screenshot-web-2.png)
-![Alt Text](/screenshot/screenshot-web-3.png)
+![Alt Text](/screenshot/screenshot-web.png)
+
 
 ### Result(Visitor)
 ![Alt text](/screenshot/2017-07-29_20h26_19.png "Optional Title")
