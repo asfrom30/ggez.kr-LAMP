@@ -28,17 +28,34 @@
 	display: none;
 }
 
-
-
-/** Main Tab buttons **/
-.main-tab-buttons li{
-	text-align:center;
-	height:30px;
+/* Data Selector Layout*/
+/* Data-selector가 z-index값을 갖을 수 있도록 위치 정의 */
+.data-selector-wrapper{
+	position:fixed;
+	z-index: 1030;	/* 모바일에서는 항상 위에 있어야 하므로 */
+	left:0;
+	right:0;
+	bottom:0;
+	margin-bottom:0;
 }
 
-.main-tab-buttons li > a{
-	padding:0;
-	height:30px;
+@media All and (min-width:768px){
+	.data-selector-wrapper{
+		position:relative;	/* selector-hidden(position:absolute)의 기준점이 됩니다.*/
+		z-index: 2;	/* Radar Chart나 Radar Table 보다 위에 있어야 한다. */
+		width:50%;
+	}
+}
+.data-selector-wrapper .content{
+	order:-1;
+}
+
+@media All and (min-width:768px){
+	.data-selector-wrapper .content{
+		position:absolute;
+		top:50px;
+		width:100%;
+	}
 }
 
 
@@ -98,36 +115,7 @@
 	width:100%;
 }
 
-/* Data Selector Layout*/
-/* Data-selector가 z-index값을 갖을 수 있도록 위치 정의 */
-.tab-content .data-selector{
-	position:fixed;
-	z-index: 1030;	/* 모바일에서는 항상 위에 있어야 하므로 */
-	left:0;
-	right:0;
-	bottom:0;
-	margin-bottom:0;
-	border-width: 1px 0 0;
-	
-	width:100%;
-	
-	
-}
-@media All and (min-width:768px){
-	.tab-content .data-selector{
-		position:relative;	/* selector-hidden(position:absolute)의 기준점이 됩니다.*/
-		z-index: 2;	/* Radar Chart나 Radar Table 보다 위에 있어야 한다. */
-		
-		width:50%;
-	}
-	.data-selector .selector-hidden{
-		position:absolute;
-		top:50px;
-		width:100%;
-	}	
-}
 
-/* Data Selector Layout*/
 
 
 

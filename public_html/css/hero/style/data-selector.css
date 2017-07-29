@@ -1,25 +1,20 @@
-/** Data Select and Status Bar Style **/
-.tab-content .data-selector{
-	
-}
-
 /* Fixed Bottom Data-selector Title */
-.selector-header .title-image{
-	width:61px;
+
+.data-selector-wrapper .header .title-image{
 	background-image:url('../img/icon-All.png');
 	background-size : cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.selector-header .title-upper-text{
+.data-selector-wrapper .header .title-upper-text{
 	line-height:normal;
 	font-size:2rem;
 	font-weight: bold;
 	vertical-align: bottom;
 }
 
-.selector-header .title-lower-text{
+.data-selector-wrapper .header .title-lower-text{
 	line-height:normal;
 	font-size:2rem;
 	color:black;

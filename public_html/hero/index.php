@@ -122,10 +122,10 @@ global $cookie;
 		
 	<!-- Tab buttons -->
 	<div class="main-tab-wrapper h-30-px m-t-10 m-b-5">
-		<div class="button-group flex h-100-pct">
-			<button id="js-total-tab-button" class="tablink" onclick="updateMainTabDisplay(event, 'html-total-summary')">전체요약</button>
-			<button id="js-hero-tab-button" class="tablink active" onclick="updateMainTabDisplay(event, 'html-hero-detail')">영웅상세</button>
-			<button id="js-favorite-tab-button" class="tablink" onclick="updateMainTabDisplay(event, 'html-friend-compare')">친구비교</button>
+		<div class="button-group flex h-100-pct" id="js-main-tab-buttons">
+			<button id="js-total-tab-button" class="tablink">전체요약</button>
+			<button id="js-hero-tab-button" class="tablink active">영웅상세</button>
+			<button id="js-favorite-tab-button" class="tablink">친구비교</button>
 		</div>
 	</div>
 

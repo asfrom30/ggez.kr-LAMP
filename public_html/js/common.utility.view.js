@@ -14,9 +14,9 @@ function displayBlock($_target, bool){
 
 function displayFlex($_target, bool){
 	if(bool){
-		$_target.css("display", "flex");
+		$_target.addClass("flex");
 	} else {
-		$_target.css("display", "none");
+		$_target.removeClass("flex");
 	}
 }
 

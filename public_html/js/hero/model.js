@@ -24,6 +24,8 @@ function ajaxFetchStats(battileId, callback, reference, optionObj){
 		xmlhttp.open("GET", encode_uri, true);
 	}
 	xmlhttp.send();
+	
+	
 }
 
 /* Parameter는 Array 형태가 아닌 Object 형태로 전달한다. */

@@ -21,9 +21,25 @@ var fBattleName;
 var fBattleId;
 var fTempBattleId;
 
-var elementIds = {
-	friendSearchBar : "#js-favorite-search-group",
+var ids = {
+		friendSearchBar : "js-favorite-search-group",
+		
+		mainTabButtonsId : "js-main-tab-buttons",
+		totalTabButtonId : "js-total-tab-button",
+		heroTabButtonId : "js-hero-tab-button",
+		favoriteTabButtonId : "js-favorite-tab-button",
+		
+		totalTabContentId : "js-total-tab-content",
+		heroTabContentId : "js-hero-tab-content",	
+		favoriteTabContentId : "js-friend-tab-content",
+		dataSelectorWrapperId : "heroContent-selector",
+	}
+
+/* Util? */
+function getJquery(ids){
+	return $("#" + ids);
 }
+
 
 /* Ready Java Script */
 $(document).ready(function(){
@@ -76,8 +92,9 @@ $(document).ready(function(){
 function initButtonMap(){
 	
 	/* Tab Button Click(활성탭에 따라 보여지는것과 보여지지 않는 것을 컨트롤합니다. */
-	$("#js-main-tab-buttons li").unbind('click').bind('click', function(){
-		controlTabDisplay($(this).attr("id"));
+	var $_target = getJquery(window.ids.mainTabButtonsId);
+	$_target.find("button").unbind('click').bind('click', function(){
+		addMainTabListner($(this));
 	});
 	
 	/* Favorite Player Registration(Star Shape Icon Clicked) */
@@ -282,32 +299,6 @@ function executeAfterResponse(){
 	
 }
 
-// 0516
-/* 탭 상태에 따라 탭컨텐츠를 설정합니다. */
-function suppressTabContent(){
-	/* 전체요약 탭에서는 데이터 선택 바를 삭제합니다. */
-	$("#heroContent-selector").css("display", "block");
-	
-	$(this).siblings().addBack().each(function(){
-		if($(this).hasClass("active")){
-			if($(this).attr("id") == "js-total-tab-button"){
-				 $("#heroContent-selector").css("display", "none");
-			}
-		}
-	});
-	
-	/* 친구비교 외의 탭에서는 찾기 상태바를 삭제합니다. */
-	$("#js-favorite-search-group").css("display", "none");
-	
-	$(this).siblings().addBack().each(function(){
-		if($(this).hasClass("active")){
-			if($(this).attr("id") == "js-favorite-tab-button"){
-				 $("#js-favorite-search-group").css("display", "block");
-			}
-		}
-	});
-}
-
 
 /* 전체 요약의 Profile Section을 설정합니다. */
 function updateProfileSection(){
@@ -420,6 +411,7 @@ function setGameNumInFixedBtm(){
 	$("#todayBtn > div:nth-child(2)").text(addGameSetLabel(todayPlayTime));
 	$("#weekBtn > div:nth-child(2)").text(addGameSetLabel(weekPlayTime));
 	$("#avgBtn > div:nth-child(2)").text(addGameSetLabel(avgPlayTime));
+
 }
 
 function setfGameNumInFixedBtm(){
