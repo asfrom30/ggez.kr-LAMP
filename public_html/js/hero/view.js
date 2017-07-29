@@ -1,11 +1,10 @@
-/* Relate to Drop down Function */
-function addDropDownListener(){
-	/* 즐겨찾기 항목 버튼  */
-	$("#js-favorite-list-button").click(function(){
-		$("#js-dropdown-favorite-list").toggleClass("show");
-	});
+
+var myView = { 
+		formId : getElementById("form"),
+		inputId : $("#aaa")
 }
 
+/* Window.onclick Declaration */
 //Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.js-dropdown-button')) {
@@ -18,7 +17,95 @@ window.onclick = function(event) {
       }
     }
   }
+
+
 }
+
+/* 활성탭에 따라 뷰가 달라지는 것을 컨트롤 합니다. */
+function addMainTabListner($_tabLink){
+	
+	var tabLinkId = $_tabLink.attr("id"); 
+	
+	/* tab link active and deactive */
+	setMainTabLinkActive($_tabLink);
+
+	/* tab content block and none */
+	setMainTabContentDisplay(tabLinkId);
+	
+	/* Search Bar Display Control */
+	updateSearchBarDisplay(tabLinkId);
+	
+	/* Fixed Bottom Display Control */
+	updateDataSelectorWrapperDisplay(tabLinkId);
+	
+	/* 활성 탭에 따라서 period 버튼을 선택 할수도 못할 수도 있습니다. */
+	if(tabLinkId == 'js-hero-tab-button'){	// 영웅상세탭
+		/* 시즌 평균에 블루 라벨을 추가한다. */
+		$("#avgBtn").css("border", "2px solid rgba(154,208,245,1)");
+		$("#avgBtn").css("color", "white");
+		
+		$(".tab-content .data-selector .friend-data-selector button").css("border", "0px soltabId black");
+		$(".tab-content .data-selector .friend-data-selector button").addClass("disabled");
+		
+		/* fixed bottom에 있는 라벨을 기간 <-> 친구로 변경합니다. */
+		$("#js-fixed-bottom-title-bottom").removeClass("display-none");
+		$("#js-fixed-bottom-title-bottom-versus").addClass("display-none");
+		
+	} else if(tabLinkId == 'js-favorite-tab-button'){	// 친구 비교 탭
+		/* 시즌 평균에 있는 블루라벨을 제거한다. */
+		$("#avgBtn").css("border", "");
+		$("#avgBtn").css("color", "");
+		
+		$(".tab-content .data-selector .friend-data-selector button").css("border", "");
+		$(".tab-content .data-selector .friend-data-selector button").removeClass("disabled");
+		
+		/* fixed bottom에 있는 라벨을 기간 <-> 친구로 변경합니다. */
+		$("#js-fixed-bottom-title-bottom").addClass("display-none");
+		$("#js-fixed-bottom-title-bottom-versus").removeClass("display-none");
+	}
+	
+	// Pane을 클릭할때 업데이트 라벨을 같이 변경합니다.
+	var periodIndex = getActivePeriodIndex($(".my-data-selector button"));
+	var periodfIndex = getActivePeriodIndex($(".friend-data-selector button"));
+	setUpdateBadgeWithPane(periodIndex, periodfIndex, tabId);
+	
+}
+
+//0516
+/* 탭 상태에 따라 탭컨텐츠를 설정합니다. */
+function suppressTabContent(){
+	/* 전체요약 탭에서는 데이터 선택 바를 삭제합니다. */
+	$(this).siblings().addBack().each(function(){
+		if($(this).hasClass("active")){
+			if($(this).attr("id") == "js-total-tab-button"){
+				 $("#heroContent-selector").css("display", "none");
+			}
+		}
+	});
+	
+	/* 친구비교 외의 탭에서는 찾기 상태바를 삭제합니다. */
+	$("#js-favorite-search-group").css("display", "none");
+	
+	$(this).siblings().addBack().each(function(){
+		if($(this).hasClass("active")){
+			if($(this).attr("id") == "js-favorite-tab-button"){
+				 $("#js-favorite-search-group").css("display", "block");
+			}
+		}
+	});
+}
+
+
+
+/* Relate to Drop down Function */
+function addDropDownListener(){
+	/* 즐겨찾기 항목 버튼  */
+	$("#js-favorite-list-button").click(function(){
+		$("#js-dropdown-favorite-list").toggleClass("show");
+	});
+}
+
+
 
 /*************************************************************/ 
 
@@ -62,7 +149,7 @@ function setPeriodButtonActive(){
 	});
 	
 	if(activePane == 'html-hero-detail'){
-		/* 시즌 평균에 블루 라벨을 추가한다. */
+		/* 시즌 평균에 블루 라벨을 추가한다. *///dy523
 		$("#avgBtn").css("border", "2px solid rgba(154,208,245,1)");
 		$("#avgBtn").css("color", "white");
 		
@@ -78,51 +165,7 @@ function setPeriodButtonActive(){
 	}
 }
 
-/* 활성탭에 따라 보여지는 영역이 달라지는 것을 컨트롤 합니다. */
-function controlTabDisplay(tabId){
-	/* Search Bar Display Control */
-	$("#js-favorite-search-group").css("display", "none");
-	if(tabId == "js-favorite-tab-button"){
-		 $("#js-favorite-search-group").css("display", "block");
-	}
-	
-	/* Fixed Bottom Display Control */
-	$("#heroContent-selector").css("display", "block");
-	if(tabId == "js-total-tab-button"){
-		 $("#heroContent-selector").css("display", "none");
-	}
 
-	/* 활성 탭에 따라서 period 버튼을 선택 할수도 못할 수도 있습니다. */
-	if(tabId == 'js-hero-tab-button'){	// 영웅상세탭
-		/* 시즌 평균에 블루 라벨을 추가한다. */
-		$("#avgBtn").css("border", "2px soltabId rgba(154,208,245,1)");
-		$("#avgBtn").css("color", "white");
-		
-		$(".tab-content .data-selector .friend-data-selector button").css("border", "0px soltabId black");
-		$(".tab-content .data-selector .friend-data-selector button").addClass("disabled");
-		
-		/* fixed bottom에 있는 라벨을 기간 <-> 친구로 변경합니다. */
-		$("#js-fixed-bottom-title-bottom").removeClass("display-none");
-		$("#js-fixed-bottom-title-bottom-versus").addClass("display-none");
-		
-	} else if(tabId == 'js-favorite-tab-button'){	// 친구 비교 탭
-		/* 시즌 평균에 있는 블루라벨을 제거한다. */
-		$("#avgBtn").css("border", "");
-		$("#avgBtn").css("color", "");
-		
-		$(".tab-content .data-selector .friend-data-selector button").css("border", "");
-		$(".tab-content .data-selector .friend-data-selector button").removeClass("disabled");
-		
-		/* fixed bottom에 있는 라벨을 기간 <-> 친구로 변경합니다. */
-		$("#js-fixed-bottom-title-bottom").addClass("display-none");
-		$("#js-fixed-bottom-title-bottom-versus").removeClass("display-none");
-	}
-	
-	// Pane을 클릭할때 업데이트 라벨을 같이 변경합니다.
-	var periodIndex = getActivePeriodIndex($(".my-data-selector button"));
-	var periodfIndex = getActivePeriodIndex($(".friend-data-selector button"));
-	setUpdateBadgeWithPane(periodIndex, periodfIndex, tabId);
-}
 
 /** Radar Table **/
 function drawRadarTableResultSummary(tableId, stdIndex, compIndex){
@@ -268,6 +311,47 @@ function updateShortStatsListDisplay($_target, shortStats, isInit){
 		count += 1;
 	}
 }
+/**  **/
+function setMainTabLinkActive($_tabLink){
+	
+	$(".tablink").removeClass("active");
+	$_tabLink.addClass("active");
+}
+
+function setMainTabContentDisplay(tabLinkId){
+	$(".tabcontent").css("display", "none");
+	
+	var $_targetTabContent = getJquery(window.ids.heroTabContentId);
+	
+	if(tabLinkId == window.ids.totalTabButtonId)
+		$_targetTabContent = getJquery(window.ids.totalTabContentId);
+	else if(tabLinkId == window.ids.heroTabButtonId)	
+		$_targetTabContent = getJquery(window.ids.heroTabContentId);
+	else if(tabLinkId == window.ids.favoriteTabButtonId)
+		$_targetTabContent = getJquery(window.ids.favoriteTabContentId);
+	
+	displayBlock($_targetTabContent, true);
+}
+
+function updateSearchBarDisplay(tabLinkId){
+	var $_target = getJquery(window.ids.friendSearchBar);
+
+	if(tabLinkId == window.ids.favoriteTabButtonId){
+		displayBlock($_target, true);
+	} else {
+		displayBlock($_target, false);
+	}
+}
+
+function updateDataSelectorWrapperDisplay(tabLinkId){
+	var $_target = getJquery(window.ids.dataSelectorWrapperId);
+
+	if(tabLinkId == window.ids.totalTabButtonId){
+		displayFlex($_target, false);
+	} else {
+		displayFlex($_target, true);
+	}
+}
 
 /** Plain Jquery Method (Jquery Elem like Getter and Setter) **/
 /* XXX 이런 getter, setter처럼 사소한 코드라도 함수로지정해놓으면 변수명이 바뀌어도 일일히 찾아다니면서 바꿀 필요가 없다. */
@@ -276,6 +360,8 @@ function friendLoaderScreen(bool){
 	var $_target = $("#js-friend-tap-loader-screen");
 	displayFlex($_target, bool);
 }
+
+
 
 
 

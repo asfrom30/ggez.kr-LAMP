@@ -1,0 +1,195 @@
+<!-- Data Select and Status Bar -->
+<div class="data-selector-wrapper data-selector flex-r" id="heroContent-selector">
+	<!-- Fixed Bottom Header -->
+	<div class="header" id="heroContent-fixed-header">
+		<div class="flex f-align-w-between h-50-px">
+			<div class="flex h-100-pct overflow-hidden">
+				<div class="title-image w-60-px h-100-pct" id="js-fixed-bottom-img"></div>
+				<div class="h-100-pct">
+					<div class="title-upper-text h-50-pct" id="js-fixed-bottom-title-up">All</div>
+					<div class="h-50-pct flex f-align-h-center title-lower-text">
+						<div id="js-fixed-bottom-title-bottom">오늘 경기 결과</div>
+						<div class="versus display-none" id="js-fixed-bottom-title-bottom-versus"><span class="red js-my-battle-name"></span> vs <span class="blue" id="js-fixed-bottom-friend-name"></span></div>
+					</div>
+				</div>
+			</div>
+			<div class="flexAlignSelf-v-center">
+				<button type="button" class="toggle" data-toggle="collapse" data-target="#html-selector-hidden" id="data-select-button">
+					<span class="glyphicon glyphicon-th-list"></span> 데이터 선택
+				</button>
+			</div>
+		</div>
+
+		<!-- Adsense -->
+		<div class="flex f-align-w-center">
+			<div id="build-adsense-2">
+				<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1722366924586940" data-ad-slot="5878328514" data-ad-format="auto"></ins>
+			    <script>
+			    	$(document).ready(function(){(adsbygoogle = window.adsbygoogle || []).push({})});
+			    </script>
+		    </div>
+		</div>
+	</div>	
+
+	<!-- Fixed Bottom Hide-selector -->
+	<div class="content collapse" id="html-selector-hidden">
+		<div class="subTitle">
+			<span class="glyphicon glyphicon-ok-circle"></span> 내 데이터 선택하기
+		</div>
+		<div class="my-data-selector btn-group">
+			<button class="heroPeriodBtn btn btn-labeled btn-default btn-xs w-25-pct" id="yesterDayBtn">
+				<div>어제전체</div>
+				<div>-</div>
+			</button>
+			<button class="heroPeriodBtn btn btn-labeled btn-default btn-xs w-25-pct" id="todayBtn">
+				<div>오늘전체</div>
+				<div>-</div>
+			</button>
+			<button class="heroPeriodBtn btn btn-labeled btn-default btn-xs w-25-pct" id="weekBtn">
+				<div>주간전체</div>
+				<div>-</div>
+			</button>
+			<button class="heroPeriodBtn btn btn-labeled btn-default btn-xs w-25-pct" id="avgBtn">
+				<div>시즌 평균</div>
+				<div>-</div>
+			</button>
+			<!-- 						<button class="heroPeriodBtn btn btn-labeled btn-default btn-xs w-20-pct" id="bestBtn"><div>시즌 최고</div><div>-</div></button> -->
+		</div>
+		<div class="subTitle">
+			<span class="glyphicon glyphicon-ok-circle"></span> 친구 데이터 선택하기
+		</div>
+		<div class="friend-data-selector btn-group">
+			<button class="heroPeriodBtn btn btn-labeled btn-default btn-xs w-25-pct" id="friend-yesterDayBtn">
+				<div>어제전체</div>
+				<div>-</div>
+			</button>
+			<button class="heroPeriodBtn btn btn-labeled btn-default btn-xs w-25-pct" id="friend-todayBtn">
+				<div>오늘전체</div>
+				<div>-</div>
+			</button>
+			<button class="heroPeriodBtn btn btn-labeled btn-default btn-xs w-25-pct" id="friend-weekBtn">
+				<div>주간전체</div>
+				<div>-</div>
+			</button>
+			<button class="heroPeriodBtn btn btn-labeled btn-default btn-xs w-25-pct" id="friend-avgBtn">
+				<div>시즌 평균</div>
+				<div>-</div>
+			</button>
+			<!-- 						<button class="heroPeriodBtn btn btn-labeled btn-default btn-xs w-20-pct" id="friend-bestBtn"><div>시즌 최고</div><div>-</div></button> -->
+		</div>
+		<div class="navbar-collapse collapse in" id="heroList">
+			<div class="heroList clearfix">
+				<ul class="nav navbar-nav" style="width: 100%">
+					<li><div class="roleContainer" style="background-image: url('../img/offense-icon.png');"></div>
+						<div class="heroContainer img-rounded" id="Genji" style="background-image: url('../img/icon-genji.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">겐지</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Reaper" style="background-image: url('../img/icon-reaper.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">리퍼</span>
+						</div>
+						<div class="heroContainer img-rounded" id="McCree" style="background-image: url('../img/icon-mccree.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">맥크리</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Soldier76" style="background-image: url('../img/icon-soldier76.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">솔져76</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Sombra" style="background-image: url('../img/icon-sombra.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">솜브라</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Tracer" style="background-image: url('../img/icon-tracer.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">트레이서</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Pharah" style="background-image: url('../img/icon-pharah.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">파라</span>
+						</div></li>
+					<li><div class="roleContainer" style="background-image: url('../img/defense-icon.png');"></div>
+						<div class="heroContainer img-rounded" id="Mei" style="background-image: url('../img/icon-mei.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">메이</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Bastion" style="background-image: url('../img/icon-bastion.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">바스티온</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Widowmaker" style="background-image: url('../img/icon-widowmaker.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">위도우메이커</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Junkrat" style="background-image: url('../img/icon-junkrat.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">정크랫</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Torbjoern" style="background-image: url('../img/icon-torbjoern.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">토르비욘</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Hanzo" style="background-image: url('../img/icon-hanzo.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">한조</span>
+						</div></li>
+					<li><div class="roleContainer" style="background-image: url('../img/tank-icon.png');"></div>
+						<div class="heroContainer img-rounded" id="DVa" style="background-image: url('../img/icon-dva.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">디바</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Reinhardt" style="background-image: url('../img/icon-reinhardt.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">라인하르트</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Roadhog" style="background-image: url('../img/icon-roadhog.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">로드호그</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Winston" style="background-image: url('../img/icon-winston.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">윈스턴</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Zarya" style="background-image: url('../img/icon-zarya.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">자리야</span>
+						</div></li>
+					<li><div class="roleContainer" style="background-image: url('../img/support-icon.png');"></div>
+						<div class="heroContainer img-rounded" id="Lucio" style="background-image: url('../img/icon-lucio.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">루시우</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Mercy" style="background-image: url('../img/icon-mercy.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">메르시</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Symmetra" style="background-image: url('../img/icon-symmetra.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">시메트라</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Ana" style="background-image: url('../img/icon-ana.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">아나</span>
+						</div>
+						<div class="heroContainer img-rounded" id="Zenyatta" style="background-image: url('../img/icon-zenyatta.png');">
+							<span class="update"></span><span class="fupdate"></span><span class="heroNameTag badge" style="">젠야타</span>
+						</div></li>
+				</ul>
+			</div>
+		</div>
+		<div class="subTitle">
+			<span class="glyphicon glyphicon-ok-circle"></span> 다른티어 평균 선택<span id="tierSubTitle"></span>
+		</div>
+		<div class="tierSelectBtn-Group btn-group">
+			<button class="tierSelectBtn btn btn-labeled btn-default btn-xs" id="bronzeBtn">
+				<div>브론즈</div>
+				<div>-</div>
+			</button>
+			<button class="tierSelectBtn btn btn-labeled btn-default btn-xs" id="silverBtn">
+				<div>실버</div>
+				<div>-</div>
+			</button>
+			<button class="tierSelectBtn btn btn-labeled btn-default btn-xs" id="goldBtn">
+				<div>골드</div>
+				<div>-</div>
+			</button>
+			<button class="tierSelectBtn btn btn-labeled btn-default btn-xs" id="platinumBtn">
+				<div>플래티넘</div>
+				<div>-</div>
+			</button>
+			<button class="tierSelectBtn btn btn-labeled btn-default btn-xs" id="diaBtn">
+				<div>다이아</div>
+				<div>-</div>
+			</button>
+			<button class="tierSelectBtn btn btn-labeled btn-default btn-xs" id="masterBtn">
+				<div>마스터</div>
+				<div>-</div>
+			</button>
+			<button class="tierSelectBtn btn btn-labeled btn-default btn-xs" id="grandMasterBtn">
+				<div>
+					그랜드<br>마스터
+				</div>
+				<div>-</div>
+			</button>
+		</div>
+	</div>
+</div>	<!-- end of selectorWrapper Class -->
