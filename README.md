@@ -9,16 +9,6 @@ This service is analyzing Overwatch Gamers Statics daily and grade. Diplaying st
 
 ### Stack
 <div>
-<<<<<<< HEAD
-<img src="./screenshot/stack/php.png" width="50">
-<img src="./screenshot/stack/mysql.png" width="50">
-<img src="./screenshot/stack/html.png" width="50">
-<img src="./screenshot/stack/css3.png" width="50">
-<img src="./screenshot/stack/javascript.jpeg" width="50">
-<img src="./screenshot/stack/jquery.png" width="50">
-</div>
-
-=======
  <img src="./screenshot/stack/php.png" width="50">
  <img src="./screenshot/stack/mysql.png" width="50">
  <img src="./screenshot/stack/html.png" width="50">
@@ -26,8 +16,6 @@ This service is analyzing Overwatch Gamers Statics daily and grade. Diplaying st
  <img src="./screenshot/stack/javascript.jpeg" width="50">
  <img src="./screenshot/stack/jquery.png" width="50">
 </div>
->>>>>>> a5d400d9df08a5758839fe23e497b693326062fc
-
 
 ### Opinion
 When I started this project, I totally have no idea about Web Application(I was a Mechanical Designer) I just focused on the finished this project.
