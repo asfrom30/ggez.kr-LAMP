@@ -7,6 +7,15 @@ This service is analyzing Overwatch Gamers Statics daily and grade. Diplaying st
 
  I think User wants to know what was today play, yesterday play and week play. And using comparing other user's statics, they want to get feed back  about how themselves palyed.(In that time I used to play Overwatch). So, I decided to develop this project.
 
+### Stack
+<img src="./screenshot/stack/php.png" width="50">
+<img src="./screenshot/stack/mysql.png" width="50">
+<img src="./screenshot/stack/html.png" width="50">
+<img src="./screenshot/stack/css3.png" width="50">
+<img src="./screenshot/stack/javascript.jpeg" width="50">
+<img src="./screenshot/stack/jquery.png" width="50">
+
+
 ### Opinion
 When I started this project, I totally have no idea about Web Application(I was a Mechanical Designer) I just focused on the finished this project.
 
