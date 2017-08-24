@@ -42,6 +42,13 @@ This web application totally considered Responsive Desigin in Mobile and Web.
 
 [link to ggez.kr](http://ggez.kr)
 
+<div>
+    <img src="./screenshot/ggezkr-anim-1.gif" width="49%">
+    <img src="./screenshot/ggezkr-anim-2.gif" width="49%">
+    <img src="./screenshot/ggezkr-anim-3.gif" width="49%">
+    <img src="./screenshot/ggezkr-anim-4.gif" width="49%">
+</div>
+
 ![Alt Text](/screenshot/screenshot-web.png)
 
 
