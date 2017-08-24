@@ -49,6 +49,8 @@ This web application totally considered Responsive Desigin in Mobile and Web.
 <div>
     <img src="./screenshot/ggezkr-anim-1.gif" height="400px">
     <img src="./screenshot/ggezkr-anim-2.gif" height="400px">
+</div>
+<div>
     <img src="./screenshot/ggezkr-anim-3.gif" height="400px">
     <img src="./screenshot/ggezkr-anim-4.gif" height="400px">
 </div>
@@ -62,5 +64,5 @@ This web application totally considered Responsive Desigin in Mobile and Web.
 ## Reference
 - [Html and Css Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 - [CSS(How to)](https://www.w3schools.com/howto/)
-- [GitHub Project] https://git-scm.com/book/ko/v2/GitHub-GitHub-프로젝트에-기여하기
+- [GitHub Project] (https://git-scm.com/book/ko/v2/GitHub-GitHub-프로젝트에-기여하기)
 
