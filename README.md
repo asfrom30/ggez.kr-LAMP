@@ -47,19 +47,19 @@ This web application totally considered Responsive Desigin in Mobile and Web.
 
 ##### GIF
 <div>
-    <img src="./screenshot/ggezkr-anim-1.gif" height="400px">
-    <img src="./screenshot/ggezkr-anim-2.gif" height="400px">
+    <img src="/git_resources/ggezkr-anim-1.gif" height="400px">
+    <img src="./git_resources/ggezkr-anim-2.gif" height="400px">
 </div>
 <div>
-    <img src="./screenshot/ggezkr-anim-3.gif" height="400px">
-    <img src="./screenshot/ggezkr-anim-4.gif" height="400px">
+    <img src="./git_resources/ggezkr-anim-3.gif" height="400px">
+    <img src="./git_resources/ggezkr-anim-4.gif" height="400px">
 </div>
 
 
 
 
 #### Visitor
-![Alt text](/screenshot/2017-07-29_20h26_19.png "Optional Title")
+![Alt text](/git_resources/2017-07-29_20h26_19.png "Optional Title")
 
 ## Reference
 - [Html and Css Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
