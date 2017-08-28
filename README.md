@@ -3,9 +3,9 @@
 ## About this project
 
 ### Summary
-This service is analyzing Overwatch Gamers Statics daily and grade. Diplaying statics services were already existed. But I thought that type of services just displayed meaningless number. For example, User only can see number which is accumulated score.
+This service makes Overwatch gamers can see their own Statics depend on daily and grade. Diplaying statics services were already existed. But I thought that type of services just displayed meaningless number. For example, User only can see number which is accumulated score.
 
- I think User wants to know what was today play, yesterday play and week play. And using comparing other user's statics, they want to get feed back  about how themselves palyed.(In that time I used to play Overwatch). So, I decided to develop this project.
+ I thought user needs to know how about today, yesterday and week playing. And using comparing other user's statics, they can get feed back about their playing is good or not.(In that time I used to play Overwatch). So, I decided to develop this project.
 
 ### Stack
 <div>
