@@ -9,12 +9,12 @@ This service is analyzing Overwatch Gamers Statics daily and grade. Diplaying st
 
 ### Stack
 <div>
- <img src="./screenshot/stack/php.png" width="50">
- <img src="./screenshot/stack/mysql.png" width="50">
- <img src="./screenshot/stack/html.png" width="50">
- <img src="./screenshot/stack/css3.png" width="50">
- <img src="./screenshot/stack/javascript.jpeg" width="50">
- <img src="./screenshot/stack/jquery.png" width="50">
+ <img src="./git_resources/stack/php.png" width="50">
+ <img src="./git_resources/stack/mysql.png" width="50">
+ <img src="./git_resources/stack/html.png" width="50">
+ <img src="./git_resources/stack/css3.png" width="50">
+ <img src="./git_resources/stack/javascript.jpeg" width="50">
+ <img src="./git_resources/stack/jquery.png" width="50">
 </div>
 
 ### Opinion
@@ -43,7 +43,7 @@ This web application totally considered Responsive Desigin in Mobile and Web.
 [link to ggez.kr](http://ggez.kr)
 
 ##### ScreenShot
-![Alt Text](/screenshot/screenshot-web.png)
+![Alt Text](/git_resources/screenshot-web.png)
 
 ##### GIF
 <div>
